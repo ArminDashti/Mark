@@ -1,33 +1,16 @@
-# Local Docker hot-reload: Postgres + Go Air API + Vite WebUI (bind mounts).
+# Local Docker hot-reload: Go Air API (SQLite) + Vite WebUI (bind mounts).
 # Usage: docker compose -f docker-compose.local.yml -p mark up -d --force-recreate
 name: mark
 services:
-  postgres:
-    image: postgres:16-alpine
-    restart: "no"
-    environment:
-      POSTGRES_USER: mark
-      POSTGRES_PASSWORD: mark
-      POSTGRES_DB: mark
-    ports:
-      - "5439:5432"
-    volumes:
-      - mark-postgres-data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U mark -d mark"]
-      interval: 5s
-      timeout: 3s
-      retries: 10
-
   api:
     image: golang:1.25-alpine
     restart: "no"
     working_dir: /app
     environment:
       ADDR: "0.0.0.0:8130"
-      DATABASE_URL: postgres://mark:mark@postgres:5432/mark?sslmode=disable
-      JWT_SECRET: change-me-mark-jwt
       DATA_DIR: /app/data
+      DATABASE_PATH: /app/data/mark.db
+      JWT_SECRET: change-me-mark-jwt
       MIGRATIONS_DIR: migrations
       GIN_MODE: debug
       GOTOOLCHAIN: auto
@@ -42,9 +25,6 @@ services:
       - mark-data:/app/data
     ports:
       - "8180:8130"
-    depends_on:
-      postgres:
-        condition: service_healthy
 
   webui:
     image: node:22-alpine
@@ -72,7 +52,6 @@ services:
       - api
 
 volumes:
-  mark-postgres-data:
   mark-gomod:
   mark-gotmp:
   mark-data:

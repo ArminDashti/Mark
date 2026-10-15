@@ -5,6 +5,8 @@ bin/
 .armin/
 .cursor/
 *.log
+data/mark.db
+data/mark.db-*
 data/originals/
 data/cache/
 

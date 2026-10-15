@@ -8,7 +8,6 @@ import (
 	"strings"
 
 	"github.com/ArminDashti/mark-api/internal/models"
-	"github.com/jackc/pgx/v5/pgconn"
 )
 
 // ErrNotFound is returned when a mark does not exist.
@@ -17,7 +16,10 @@ var ErrNotFound = errors.New("mark not found")
 // ErrConflict is returned on unique (kind, slug) collisions.
 var ErrConflict = errors.New("mark already exists")
 
-// Store persists marks in PostgreSQL.
+// sqliteConstraintUnique is SQLITE_CONSTRAINT_UNIQUE (extended result code).
+const sqliteConstraintUnique = 2067
+
+// Store persists marks in SQLite.
 type Store struct {
 	db *sql.DB
 }
@@ -44,7 +46,7 @@ func scanMark(row interface {
 
 // GetByID loads a mark by id.
 func (s *Store) GetByID(ctx context.Context, id string) (*models.Mark, error) {
-	m, err := scanMark(s.db.QueryRowContext(ctx, `SELECT `+markCols+` FROM marks WHERE id = $1`, id))
+	m, err := scanMark(s.db.QueryRowContext(ctx, `SELECT `+markCols+` FROM marks WHERE id = ?`, id))
 	if errors.Is(err, sql.ErrNoRows) {
 		return nil, ErrNotFound
 	}
@@ -54,7 +56,7 @@ func (s *Store) GetByID(ctx context.Context, id string) (*models.Mark, error) {
 // GetByKindSlug loads a mark by kind and slug.
 func (s *Store) GetByKindSlug(ctx context.Context, kind, slug string) (*models.Mark, error) {
 	m, err := scanMark(s.db.QueryRowContext(ctx, `
-		SELECT `+markCols+` FROM marks WHERE kind = $1 AND slug = $2
+		SELECT `+markCols+` FROM marks WHERE kind = ? AND slug = ?
 	`, kind, slug))
 	if errors.Is(err, sql.ErrNoRows) {
 		return nil, ErrNotFound
@@ -74,20 +76,20 @@ func (s *Store) List(ctx context.Context, kind, q string) ([]models.Mark, error)
 		rows, err = s.db.QueryContext(ctx, `SELECT `+markCols+` FROM marks ORDER BY updated_at DESC`)
 	case kind != "" && q == "":
 		rows, err = s.db.QueryContext(ctx, `
-			SELECT `+markCols+` FROM marks WHERE kind = $1 ORDER BY updated_at DESC
+			SELECT `+markCols+` FROM marks WHERE kind = ? ORDER BY updated_at DESC
 		`, kind)
 	case kind == "" && q != "":
 		rows, err = s.db.QueryContext(ctx, `
 			SELECT `+markCols+` FROM marks
-			WHERE name ILIKE $1 ESCAPE '\' OR slug ILIKE $1 ESCAPE '\'
+			WHERE name LIKE ? ESCAPE '\' OR slug LIKE ? ESCAPE '\'
 			ORDER BY updated_at DESC
-		`, like)
+		`, like, like)
 	default:
 		rows, err = s.db.QueryContext(ctx, `
 			SELECT `+markCols+` FROM marks
-			WHERE kind = $1 AND (name ILIKE $2 ESCAPE '\' OR slug ILIKE $2 ESCAPE '\')
+			WHERE kind = ? AND (name LIKE ? ESCAPE '\' OR slug LIKE ? ESCAPE '\')
 			ORDER BY updated_at DESC
-		`, kind, like)
+		`, kind, like, like)
 	}
 	if err != nil {
 		return nil, err
@@ -109,7 +111,7 @@ func (s *Store) List(ctx context.Context, kind, q string) ([]models.Mark, error)
 func (s *Store) Insert(ctx context.Context, m *models.Mark) (*models.Mark, error) {
 	created, err := scanMark(s.db.QueryRowContext(ctx, `
 		INSERT INTO marks (id, kind, slug, name, original_path, original_mime, width, height, has_alpha)
-		VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
 		RETURNING `+markCols, m.ID, m.Kind, m.Slug, m.Name, m.OriginalPath, m.OriginalMIME, m.Width, m.Height, m.HasAlpha))
 	if err != nil {
 		return nil, wrapConflict(err)
@@ -121,18 +123,18 @@ func (s *Store) Insert(ctx context.Context, m *models.Mark) (*models.Mark, error
 func (s *Store) Update(ctx context.Context, m *models.Mark) (*models.Mark, error) {
 	updated, err := scanMark(s.db.QueryRowContext(ctx, `
 		UPDATE marks SET
-			kind = $2,
-			slug = $3,
-			name = $4,
-			original_path = $5,
-			original_mime = $6,
-			width = $7,
-			height = $8,
-			has_alpha = $9,
-			updated_at = NOW()
-		WHERE id = $1
+			kind = ?,
+			slug = ?,
+			name = ?,
+			original_path = ?,
+			original_mime = ?,
+			width = ?,
+			height = ?,
+			has_alpha = ?,
+			updated_at = CURRENT_TIMESTAMP
+		WHERE id = ?
 		RETURNING `+markCols,
-		m.ID, m.Kind, m.Slug, m.Name, m.OriginalPath, m.OriginalMIME, m.Width, m.Height, m.HasAlpha))
+		m.Kind, m.Slug, m.Name, m.OriginalPath, m.OriginalMIME, m.Width, m.Height, m.HasAlpha, m.ID))
 	if errors.Is(err, sql.ErrNoRows) {
 		return nil, ErrNotFound
 	}
@@ -144,7 +146,7 @@ func (s *Store) Update(ctx context.Context, m *models.Mark) (*models.Mark, error
 
 // Delete removes a mark row.
 func (s *Store) Delete(ctx context.Context, id string) error {
-	res, err := s.db.ExecContext(ctx, `DELETE FROM marks WHERE id = $1`, id)
+	res, err := s.db.ExecContext(ctx, `DELETE FROM marks WHERE id = ?`, id)
 	if err != nil {
 		return err
 	}
@@ -165,9 +167,9 @@ func likeContains(q string) string {
 }
 
 func wrapConflict(err error) error {
-	var pgErr *pgconn.PgError
-	if errors.As(err, &pgErr) && pgErr.Code == "23505" {
-		return fmt.Errorf("%w: %s", ErrConflict, strings.TrimSpace(pgErr.Detail))
+	var sqliteErr interface{ Code() int }
+	if errors.As(err, &sqliteErr) && sqliteErr.Code() == sqliteConstraintUnique {
+		return fmt.Errorf("%w: kind and slug must be unique", ErrConflict)
 	}
 	return err
 }

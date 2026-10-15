@@ -1,0 +1,422 @@
+{
+  "mark-api/cmd/server/main.go": {
+    "mtime": 1792095160.7859828,
+    "ast_hash": "3ef7c23d2b1fab34213f8a78dbcb3567",
+    "semantic_hash": ""
+  },
+  "mark-api/go.mod": {
+    "mtime": 1792095427.9590166,
+    "ast_hash": "ee6efa598ce71c65f6be1d9378ba209a",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/auth/jwt.go": {
+    "mtime": 1788376051.7574956,
+    "ast_hash": "0b2e756394259892a7e6df6da27a559f",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/auth/middleware.go": {
+    "mtime": 1788376051.7584956,
+    "ast_hash": "3590e743f3de8264a910a6794384cdd5",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/auth/password.go": {
+    "mtime": 1788376051.7584956,
+    "ast_hash": "69ba4d9c01ff20297dd5471355578c10",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/config/config.go": {
+    "mtime": 1792095163.9208424,
+    "ast_hash": "274eb94ab7cc7ead7ffa69f1ed2d62f6",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/db/db.go": {
+    "mtime": 1792095117.9028108,
+    "ast_hash": "96d79732c3e66ba773d0935a8ca2327f",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/handlers/handlers.go": {
+    "mtime": 1788376051.7594943,
+    "ast_hash": "a792e44877a7d1c7a2f7789c00df863e",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/marks/service.go": {
+    "mtime": 1788376051.760496,
+    "ast_hash": "ffa5de408da7c1c2fc2d828e4962c333",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/marks/store.go": {
+    "mtime": 1792095147.241243,
+    "ast_hash": "80c96426a39a7200690497a740ec337f",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/models/models.go": {
+    "mtime": 1788376051.7614958,
+    "ast_hash": "75126977c6dc60a113d7653270049bd6",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/render/render.go": {
+    "mtime": 1788376051.7614958,
+    "ast_hash": "4b710e671be2604b0d9854cb17f7735d",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/storage/disk.go": {
+    "mtime": 1788376051.762496,
+    "ast_hash": "4c134cfa58aae3b38ab4645aca687212",
+    "semantic_hash": ""
+  },
+  "mark-api/internal/users/store.go": {
+    "mtime": 1792095163.996675,
+    "ast_hash": "3d4f337dd940e1ed5fa5f16f512f7da1",
+    "semantic_hash": ""
+  },
+  "mark-api/migrations/001_init.sql": {
+    "mtime": 1792095077.6340907,
+    "ast_hash": "da0af91fd5b0d2f516c7ec6d7f8ddd00",
+    "semantic_hash": ""
+  },
+  "mark-ui/package.json": {
+    "mtime": 1792037356.2705092,
+    "ast_hash": "d4523cc2a88058a225cb641d1f32a2fd",
+    "semantic_hash": ""
+  },
+  "mark-ui/postcss.config.js": {
+    "mtime": 1788376051.770498,
+    "ast_hash": "5b84f4567208c7c747079c0477373231",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/App.vue": {
+    "mtime": 1788376051.7794962,
+    "ast_hash": "1da0f99a2ef95714f00b2c5363acafd8",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/AppFooter.vue": {
+    "mtime": 1788376051.780496,
+    "ast_hash": "0872a8c659d75d98fc2abf73ebe487c5",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/button/Button.vue": {
+    "mtime": 1788376051.780496,
+    "ast_hash": "798db5213232673498edd55ce5221d7c",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/button/index.ts": {
+    "mtime": 1788376051.7814958,
+    "ast_hash": "bcfcb404351cd3f911addc908c82db52",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/Card.vue": {
+    "mtime": 1788376051.7814958,
+    "ast_hash": "102e278887305f5be4a751ef44242f26",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/CardContent.vue": {
+    "mtime": 1788376051.7814958,
+    "ast_hash": "6885b8333fba378e1328328f24979638",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/CardDescription.vue": {
+    "mtime": 1788376051.7824945,
+    "ast_hash": "571c95e55b91e68645458306a0804747",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/CardHeader.vue": {
+    "mtime": 1788376051.7824945,
+    "ast_hash": "28bcadcd9a3820b025f41bd882628e63",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/CardTitle.vue": {
+    "mtime": 1788376051.7824945,
+    "ast_hash": "532d5aab35c83eceff25c55752991d97",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/card/index.ts": {
+    "mtime": 1788376051.7834957,
+    "ast_hash": "1640a682e556e8f6033cbd3ef3d1497d",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/dialog/Dialog.vue": {
+    "mtime": 1788376051.7834957,
+    "ast_hash": "5cf6b93c7daf4d46ab4b8e6c2e984107",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/dialog/index.ts": {
+    "mtime": 1788376051.7834957,
+    "ast_hash": "24bbf2b9e613992314f96abbc9ce7451",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/input/Input.vue": {
+    "mtime": 1788376051.7844958,
+    "ast_hash": "e33728fe234a5b6523d5bb7b05ec1850",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/components/ui/input/index.ts": {
+    "mtime": 1788376051.7844958,
+    "ast_hash": "eefe651e87fb54ba7d0a8725cc8f463a",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/lib/auth.ts": {
+    "mtime": 1788376051.7854958,
+    "ast_hash": "62020ad174f632bfc8ee320a6fc4c501",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/lib/theme.ts": {
+    "mtime": 1788376051.7854958,
+    "ast_hash": "c598e9c16e5ae2d8de7a529be9442c54",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/lib/useAuth.ts": {
+    "mtime": 1788376051.7854958,
+    "ast_hash": "8b11999aaac9dfc564598b8f7b283d25",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/lib/utils.ts": {
+    "mtime": 1788376051.7864952,
+    "ast_hash": "a7faed57a50e54d37403533f5b3a4f0c",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/main.ts": {
+    "mtime": 1788376051.7864952,
+    "ast_hash": "cf44bb3e6b664d8ab6134c0ff885a802",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/router/index.ts": {
+    "mtime": 1788376051.7864952,
+    "ast_hash": "0c0ffb832b335e8d40e4b8fed76c3e3e",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/views/AboutMeView.vue": {
+    "mtime": 1788376051.7874954,
+    "ast_hash": "d747a4938ecd9c20655094b7b7590a4f",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/views/LoginView.vue": {
+    "mtime": 1788376051.7874954,
+    "ast_hash": "831f40237ae22ec30b52b6fc17fcdef4",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/views/MarksView.vue": {
+    "mtime": 1788376051.7884967,
+    "ast_hash": "ebcf8dcfb84a12f9ce453b58472dea2c",
+    "semantic_hash": ""
+  },
+  "mark-ui/src/vite-env.d.ts": {
+    "mtime": 1788376051.7884967,
+    "ast_hash": "1ff2b5c886d39816ea55a1cd56f80625",
+    "semantic_hash": ""
+  },
+  "mark-ui/tailwind.config.js": {
+    "mtime": 1788376051.7884967,
+    "ast_hash": "d65f2aefbe074c8418cc53308e44ea04",
+    "semantic_hash": ""
+  },
+  "mark-ui/tsconfig.app.json": {
+    "mtime": 1788376051.789497,
+    "ast_hash": "bd3152645270ff372c97c2917403725f",
+    "semantic_hash": ""
+  },
+  "mark-ui/tsconfig.json": {
+    "mtime": 1788376051.790497,
+    "ast_hash": "628d441018a7a0b6b0fcc3669e2d5df0",
+    "semantic_hash": ""
+  },
+  "mark-ui/tsconfig.node.json": {
+    "mtime": 1788376051.790497,
+    "ast_hash": "6b30ec08de6693b7bfb85e004d68b81f",
+    "semantic_hash": ""
+  },
+  "mark-ui/vite.config.ts": {
+    "mtime": 1788376051.790497,
+    "ast_hash": "27bf91b535d3c382bed536d0ad659b05",
+    "semantic_hash": ""
+  },
+  "metadata.json": {
+    "mtime": 1789049503.700397,
+    "ast_hash": "087d237658fb98dc1cf23e8d41192c56",
+    "semantic_hash": ""
+  },
+  ".agents/skills/self-learning/SKILL.md": {
+    "mtime": 1792037356.268508,
+    "ast_hash": "ee5bd8f99502fe2d7c68df4417660f62",
+    "semantic_hash": ""
+  },
+  ".agents/skills/self-learning/assets/SKILL.template.md": {
+    "mtime": 1791400091.096572,
+    "ast_hash": "b3d4006d84e93e1761a5aae3f58b4f47",
+    "semantic_hash": ""
+  },
+  ".agents/skills/self-learning/references/skill-authoring.md": {
+    "mtime": 1791400091.0975757,
+    "ast_hash": "bd0b9c836e7644cfb627f16363bacd0e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Software-Engineer/code-pruning/SKILL.md": {
+    "mtime": 1791664107.2970934,
+    "ast_hash": "31f2b38677100ebc2ada60ed72676eb6",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/SKILL.md": {
+    "mtime": 1792020957.9898787,
+    "ast_hash": "432d45dbe82740efd87ab728c06c8833",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/anti-patterns-reference.md": {
+    "mtime": 1792020957.9898787,
+    "ast_hash": "e2a450964ce218078882879b4dc5d8b3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/anti-patterns.md": {
+    "mtime": 1792020957.9908798,
+    "ast_hash": "264fb30355c6c527da8039aa88424874",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/architecture.md": {
+    "mtime": 1792020957.9908798,
+    "ast_hash": "1230eee182abbd5d660d2da116a81007",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/code-pruning.md": {
+    "mtime": 1792020957.9908798,
+    "ast_hash": "353f60e9f285beee35ceebcf005f9968",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/naming.md": {
+    "mtime": 1792020957.9918785,
+    "ast_hash": "e4a02e1ff1369e5b72baabb936928095",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/safe-refactor.md": {
+    "mtime": 1792020957.9918785,
+    "ast_hash": "1564f9436f2f5d4f55330db36087f00b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/signing.md": {
+    "mtime": 1792020957.9918785,
+    "ast_hash": "d3ffce1af45b504dadfb7f186edec797",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/guides/versioning.md": {
+    "mtime": 1792020957.9918785,
+    "ast_hash": "5e288421644831609458da671038790c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/standards/about-armin/description.md": {
+    "mtime": 1792020957.995878,
+    "ast_hash": "0f5421dd4c59559f203249cc0dbca98e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/redeploy-and-open-pr/SKILL.md": {
+    "mtime": 1792083230.8650174,
+    "ast_hash": "c87c4bd5874ddb85489abc43ab686bb4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/reuse-task-procedures/INDEX.md": {
+    "mtime": 1791579503.7903063,
+    "ast_hash": "37071e7b2f9677189c3d679ed4635f4d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/reuse-task-procedures/SKILL.md": {
+    "mtime": 1791579503.7903063,
+    "ast_hash": "555efe3a5f2f00ca70e4e34870a81d0f",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/safe-refactor/SKILL.md": {
+    "mtime": 1792083411.8066795,
+    "ast_hash": "ea02cb81917632dd2c63295617668cbc",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/safe-refactor/agents/openai.yaml": {
+    "mtime": 1792083246.2573707,
+    "ast_hash": "d4f62126fbc9b7c8a1690427a9f29497",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/self-learning/assets/SKILL.template.md": {
+    "mtime": 1792037355.8681307,
+    "ast_hash": "b3d4006d84e93e1761a5aae3f58b4f47",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791400091.1015756,
+    "ast_hash": "a0d58c80ed134fa79a55f714787ea579",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1788974332.9503086,
+    "ast_hash": "7176b7a6f96fd070d612b02e276f55f8",
+    "semantic_hash": ""
+  },
+  "LEAN-CTX.md": {
+    "mtime": 1789659666.6482515,
+    "ast_hash": "7a573cdd5d79d40f143f1e1950372b64",
+    "semantic_hash": ""
+  },
+  "mark-api/README.md": {
+    "mtime": 1792095186.9170082,
+    "ast_hash": "ad1a93024ac4397b9b2b0a16d05781a1",
+    "semantic_hash": ""
+  },
+  "mark-api/docker-compose.local.yml": {
+    "mtime": 1792095174.3354886,
+    "ast_hash": "6b18531d8cab88505ef3acf72676b485",
+    "semantic_hash": ""
+  },
+  "mark-api/docker-compose.publish.yml": {
+    "mtime": 1788376051.7554958,
+    "ast_hash": "66ba57b6dd5574d1586e8ce50f4113bb",
+    "semantic_hash": ""
+  },
+  "mark-api/docker-compose.yml": {
+    "mtime": 1792095176.4353921,
+    "ast_hash": "05d569c1f2f838911a14ce94c3339ff5",
+    "semantic_hash": ""
+  },
+  "mark-ui/README.md": {
+    "mtime": 1788376051.7664957,
+    "ast_hash": "4fea2531472b6fb6eb4a5b4c41a4e6b8",
+    "semantic_hash": ""
+  },
+  "mark-ui/docker-compose.publish.yml": {
+    "mtime": 1788376051.7664957,
+    "ast_hash": "dbbc0f06272f35f6084be75627eb577e",
+    "semantic_hash": ""
+  },
+  "mark-ui/docker-compose.yml": {
+    "mtime": 1788376051.7664957,
+    "ast_hash": "50a516b09f5a734983c4fe24a6d34a6f",
+    "semantic_hash": ""
+  },
+  "mark-ui/index.html": {
+    "mtime": 1788376051.7674959,
+    "ast_hash": "634df9100ca136e35e48858ffeb68f7e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/armin-dev-policies/standards/about-armin/armin.png": {
+    "mtime": 1792020957.995878,
+    "ast_hash": "36c8d99cb03feb0c14c951cce7426bee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/about-me/armin.jpg": {
+    "mtime": 1788376051.774496,
+    "ast_hash": "36c8d99cb03feb0c14c951cce7426bee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/about-me/armin.png": {
+    "mtime": 1788376051.7774959,
+    "ast_hash": "36c8d99cb03feb0c14c951cce7426bee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/apple-touch-icon.png": {
+    "mtime": 1788376051.7774959,
+    "ast_hash": "476950228a42d0a5b3bc98ed6beb02b4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/pwa-192.png": {
+    "mtime": 1788376051.7784941,
+    "ast_hash": "476950228a42d0a5b3bc98ed6beb02b4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/pwa-512.png": {
+    "mtime": 1788376051.7784941,
+    "ast_hash": "a0e3440ed2d76f27ea0af736ca85281b",
+    "semantic_hash": ""
+  }
+}

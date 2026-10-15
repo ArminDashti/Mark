@@ -3,6 +3,7 @@ package config
 import (
 	"bufio"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -39,7 +40,7 @@ func LoadDotEnv(path string) {
 // Config holds runtime settings for the API.
 type Config struct {
 	Addr          string
-	DatabaseURL   string
+	DatabasePath  string
 	JWTSecret     string
 	MigrationsDir string
 	DataDir       string
@@ -47,12 +48,13 @@ type Config struct {
 
 // Load reads configuration from environment variables.
 func Load() Config {
+	dataDir := envOr("DATA_DIR", "data")
 	return Config{
 		Addr:          envOr("ADDR", ":8130"),
-		DatabaseURL:   os.Getenv("DATABASE_URL"),
+		DatabasePath:  envOr("DATABASE_PATH", filepath.Join(dataDir, "mark.db")),
 		JWTSecret:     envOr("JWT_SECRET", "dev-jwt-secret-change-me"),
 		MigrationsDir: envOr("MIGRATIONS_DIR", "migrations"),
-		DataDir:       envOr("DATA_DIR", "data"),
+		DataDir:       dataDir,
 	}
 }
 

@@ -10,21 +10,29 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/jackc/pgx/v5/stdlib"
+	"github.com/google/uuid"
+	_ "modernc.org/sqlite"
 )
 
-// Open connects to PostgreSQL.
-func Open(databaseURL string) (*sql.DB, error) {
-	if databaseURL == "" {
-		return nil, fmt.Errorf("DATABASE_URL is required")
+// Open connects to the SQLite database file at path, creating its directory if needed.
+func Open(path string) (*sql.DB, error) {
+	if path == "" {
+		return nil, fmt.Errorf("DATABASE_PATH is required")
 	}
-	db, err := sql.Open("pgx", databaseURL)
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return nil, fmt.Errorf("create database dir: %w", err)
+	}
+	dsn := "file:" + filepath.ToSlash(path) +
+		"?_pragma=foreign_keys(1)&_pragma=busy_timeout(5000)&_pragma=journal_mode(WAL)"
+
+	db, err := sql.Open("sqlite", dsn)
 	if err != nil {
 		return nil, err
 	}
-	db.SetMaxOpenConns(10)
-	db.SetMaxIdleConns(5)
-	db.SetConnMaxLifetime(30 * time.Minute)
+	// SQLite allows a single writer; one connection avoids SQLITE_BUSY under concurrent requests.
+	db.SetMaxOpenConns(1)
+	db.SetMaxIdleConns(1)
+	db.SetConnMaxLifetime(0)
 
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
@@ -82,13 +90,13 @@ const (
 // SeedDefaultUser upserts the default local login account.
 func SeedDefaultUser(ctx context.Context, db *sql.DB, passwordHash string) error {
 	_, err := db.ExecContext(ctx, `
-		INSERT INTO users (email, password_hash, username)
-		VALUES ($1, $2, $3)
+		INSERT INTO users (id, email, password_hash, username)
+		VALUES (?, ?, ?, ?)
 		ON CONFLICT (email) DO UPDATE SET
-			password_hash = EXCLUDED.password_hash,
-			username = EXCLUDED.username,
-			updated_at = NOW()
-	`, DefaultEmail, passwordHash, DefaultUsername)
+			password_hash = excluded.password_hash,
+			username = excluded.username,
+			updated_at = CURRENT_TIMESTAMP
+	`, uuid.NewString(), DefaultEmail, passwordHash, DefaultUsername)
 	return err
 }
 
@@ -101,12 +109,12 @@ func SeedAgentUser(ctx context.Context, db *sql.DB, username, email, passwordHas
 		email = username + "@local"
 	}
 	_, err := db.ExecContext(ctx, `
-		INSERT INTO users (email, password_hash, username)
-		VALUES ($1, $2, $3)
+		INSERT INTO users (id, email, password_hash, username)
+		VALUES (?, ?, ?, ?)
 		ON CONFLICT (email) DO UPDATE SET
-			password_hash = EXCLUDED.password_hash,
-			username = EXCLUDED.username,
-			updated_at = NOW()
-	`, email, passwordHash, username)
+			password_hash = excluded.password_hash,
+			username = excluded.username,
+			updated_at = CURRENT_TIMESTAMP
+	`, uuid.NewString(), email, passwordHash, username)
 	return err
 }

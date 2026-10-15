@@ -1,6 +1,6 @@
 # mark-api
 
-Gin + PostgreSQL CDN for company (or any) logos and icons. Serves a transparent PNG at any size.
+Gin + SQLite CDN for company (or any) logos and icons. Serves a transparent PNG at any size.
 
 Version: **1.0.0**
 
@@ -42,7 +42,7 @@ go run ./cmd/server
 ```
 
 - API: `http://127.0.0.1:8130`
-- Postgres: `localhost:5437`
+- Database: SQLite file at `DATABASE_PATH` (default `data/mark.db`), created on startup
 - Default login: `armin` / `dopadopa123`
 
 Agent upload account (mark-finder-agent-by-armin): `logo-agent` / `dopadopa123` — configured in `.env` as `MARK_AGENT_USERNAME` / `MARK_AGENT_PASSWORD`. Seeded on API startup.

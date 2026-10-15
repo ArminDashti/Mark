@@ -7,7 +7,7 @@ import (
 	"github.com/ArminDashti/mark-api/internal/models"
 )
 
-// Store loads users from PostgreSQL.
+// Store loads users from SQLite.
 type Store struct {
 	db *sql.DB
 }
@@ -22,7 +22,7 @@ func (s *Store) GetByUsername(ctx context.Context, username string) (*models.Use
 	var user models.User
 	err := s.db.QueryRowContext(ctx, `
 		SELECT id, email, username, password_hash, created_at, updated_at
-		FROM users WHERE username = $1
+		FROM users WHERE username = ?
 	`, username).Scan(
 		&user.ID, &user.Email, &user.Username, &user.PasswordHash, &user.CreatedAt, &user.UpdatedAt,
 	)

@@ -21,11 +21,11 @@ func main() {
 	config.LoadDotEnv(".env")
 
 	cfg := config.Load()
-	if cfg.DatabaseURL == "" {
-		log.Fatal("DATABASE_URL is required")
+	if cfg.DatabasePath == "" {
+		log.Fatal("DATABASE_PATH is required")
 	}
 
-	sqlDB, err := appdb.Open(cfg.DatabaseURL)
+	sqlDB, err := appdb.Open(cfg.DatabasePath)
 	if err != nil {
 		log.Fatalf("database: %v", err)
 	}
