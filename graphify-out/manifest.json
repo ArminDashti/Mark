@@ -1,12 +1,12 @@
 {
   "mark-api/cmd/server/main.go": {
-    "mtime": 1792095160.7859828,
+    "mtime": 1792101591.1052544,
     "ast_hash": "3ef7c23d2b1fab34213f8a78dbcb3567",
     "semantic_hash": ""
   },
   "mark-api/go.mod": {
-    "mtime": 1792095427.9590166,
-    "ast_hash": "ee6efa598ce71c65f6be1d9378ba209a",
+    "mtime": 1792101591.1062553,
+    "ast_hash": "b4ad8cf2827598d8f55f8876c92c78a6",
     "semantic_hash": ""
   },
   "mark-api/internal/auth/jwt.go": {
@@ -25,12 +25,12 @@
     "semantic_hash": ""
   },
   "mark-api/internal/config/config.go": {
-    "mtime": 1792095163.9208424,
+    "mtime": 1792101591.1078744,
     "ast_hash": "274eb94ab7cc7ead7ffa69f1ed2d62f6",
     "semantic_hash": ""
   },
   "mark-api/internal/db/db.go": {
-    "mtime": 1792095117.9028108,
+    "mtime": 1792101591.1083782,
     "ast_hash": "96d79732c3e66ba773d0935a8ca2327f",
     "semantic_hash": ""
   },
@@ -45,7 +45,7 @@
     "semantic_hash": ""
   },
   "mark-api/internal/marks/store.go": {
-    "mtime": 1792095147.241243,
+    "mtime": 1792101591.1083782,
     "ast_hash": "80c96426a39a7200690497a740ec337f",
     "semantic_hash": ""
   },
@@ -65,18 +65,18 @@
     "semantic_hash": ""
   },
   "mark-api/internal/users/store.go": {
-    "mtime": 1792095163.996675,
+    "mtime": 1792101591.1093824,
     "ast_hash": "3d4f337dd940e1ed5fa5f16f512f7da1",
     "semantic_hash": ""
   },
   "mark-api/migrations/001_init.sql": {
-    "mtime": 1792095077.6340907,
+    "mtime": 1792101591.1101313,
     "ast_hash": "da0af91fd5b0d2f516c7ec6d7f8ddd00",
     "semantic_hash": ""
   },
   "mark-ui/package.json": {
-    "mtime": 1792037356.2705092,
-    "ast_hash": "d4523cc2a88058a225cb641d1f32a2fd",
+    "mtime": 1792101590.4150708,
+    "ast_hash": "ffde2716f0feeb37fa99f11b9d453995",
     "semantic_hash": ""
   },
   "mark-ui/postcss.config.js": {
@@ -234,29 +234,14 @@
     "ast_hash": "087d237658fb98dc1cf23e8d41192c56",
     "semantic_hash": ""
   },
-  ".agents/skills/self-learning/SKILL.md": {
-    "mtime": 1792037356.268508,
-    "ast_hash": "ee5bd8f99502fe2d7c68df4417660f62",
-    "semantic_hash": ""
-  },
-  ".agents/skills/self-learning/assets/SKILL.template.md": {
-    "mtime": 1791400091.096572,
-    "ast_hash": "b3d4006d84e93e1761a5aae3f58b4f47",
-    "semantic_hash": ""
-  },
-  ".agents/skills/self-learning/references/skill-authoring.md": {
-    "mtime": 1791400091.0975757,
-    "ast_hash": "bd0b9c836e7644cfb627f16363bacd0e",
-    "semantic_hash": ""
-  },
   ".cursor/skills/Software-Engineer/code-pruning/SKILL.md": {
-    "mtime": 1791664107.2970934,
+    "mtime": 1792101590.4660156,
     "ast_hash": "31f2b38677100ebc2ada60ed72676eb6",
     "semantic_hash": ""
   },
   ".cursor/skills/armin-dev-policies/SKILL.md": {
-    "mtime": 1792020957.9898787,
-    "ast_hash": "432d45dbe82740efd87ab728c06c8833",
+    "mtime": 1792134264.6601768,
+    "ast_hash": "1662c6f3ab83b44136df1a73889362d2",
     "semantic_hash": ""
   },
   ".cursor/skills/armin-dev-policies/guides/anti-patterns-reference.md": {
@@ -319,21 +304,6 @@
     "ast_hash": "555efe3a5f2f00ca70e4e34870a81d0f",
     "semantic_hash": ""
   },
-  ".cursor/skills/safe-refactor/SKILL.md": {
-    "mtime": 1792083411.8066795,
-    "ast_hash": "ea02cb81917632dd2c63295617668cbc",
-    "semantic_hash": ""
-  },
-  ".cursor/skills/safe-refactor/agents/openai.yaml": {
-    "mtime": 1792083246.2573707,
-    "ast_hash": "d4f62126fbc9b7c8a1690427a9f29497",
-    "semantic_hash": ""
-  },
-  ".cursor/skills/self-learning/assets/SKILL.template.md": {
-    "mtime": 1792037355.8681307,
-    "ast_hash": "b3d4006d84e93e1761a5aae3f58b4f47",
-    "semantic_hash": ""
-  },
   "AGENTS.md": {
     "mtime": 1791400091.1015756,
     "ast_hash": "a0d58c80ed134fa79a55f714787ea579",
@@ -350,12 +320,12 @@
     "semantic_hash": ""
   },
   "mark-api/README.md": {
-    "mtime": 1792095186.9170082,
+    "mtime": 1792101591.1042502,
     "ast_hash": "ad1a93024ac4397b9b2b0a16d05781a1",
     "semantic_hash": ""
   },
   "mark-api/docker-compose.local.yml": {
-    "mtime": 1792095174.3354886,
+    "mtime": 1792101591.1052544,
     "ast_hash": "6b18531d8cab88505ef3acf72676b485",
     "semantic_hash": ""
   },
@@ -365,8 +335,8 @@
     "semantic_hash": ""
   },
   "mark-api/docker-compose.yml": {
-    "mtime": 1792095176.4353921,
-    "ast_hash": "05d569c1f2f838911a14ce94c3339ff5",
+    "mtime": 1792134399.9334915,
+    "ast_hash": "b7385c1f6791f6008a11b080b4ec240f",
     "semantic_hash": ""
   },
   "mark-ui/README.md": {
@@ -417,6 +387,2516 @@
   "mark-ui/public/pwa-512.png": {
     "mtime": 1788376051.7784941,
     "ast_hash": "a0e3440ed2d76f27ea0af736ca85281b",
+    "semantic_hash": ""
+  },
+  ".cursor/hooks/state/continual-learning.json": {
+    "mtime": 1792133194.8295038,
+    "ast_hash": "b7bdf1bd7e0fe3314fe0c4f13db0417e",
+    "semantic_hash": ""
+  },
+  "mark-cli/mark.ps1": {
+    "mtime": 1792133461.3261173,
+    "ast_hash": "6ccfe9ef403591c89d46356e20403cb4",
+    "semantic_hash": ""
+  },
+  ".agents/skills/Agent/completion-report-by-armin/SKILL.md": {
+    "mtime": 1792101590.3038518,
+    "ast_hash": "d8caca35c752c9d1cd3c533a352965d4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Agent/completion-report-by-armin/SKILL.md": {
+    "mtime": 1792101590.306152,
+    "ast_hash": "d8caca35c752c9d1cd3c533a352965d4",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Loopx/SKILL.md": {
+    "mtime": 1792101590.306152,
+    "ast_hash": "09ee39ecd9420d787b1c5078035f6690",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Memory/self-learning/SKILL.md": {
+    "mtime": 1792101591.0684335,
+    "ast_hash": "456abd9029f4b02f671fe0a34c71d878",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Memory/self-learning/assets/SKILL.template.md": {
+    "mtime": 1792101591.069429,
+    "ast_hash": "b3d4006d84e93e1761a5aae3f58b4f47",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/Memory/self-learning/references/skill-authoring.md": {
+    "mtime": 1792101591.069429,
+    "ast_hash": "bd0b9c836e7644cfb627f16363bacd0e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/app-lifecycle-cli/SKILL.md": {
+    "mtime": 1792100928.0506933,
+    "ast_hash": "dfd9c63b39403bd45c2ac6a7b88118a9",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/caveman-evidence-review/SKILL.md": {
+    "mtime": 1792101590.3294947,
+    "ast_hash": "77a9ad7602f85ea210b0924f6c76f143",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/caveman-help/README.md": {
+    "mtime": 1792101590.3314948,
+    "ast_hash": "f49266e99b58d33c1d40b7bf0a644ec3",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/caveman-help/SKILL.md": {
+    "mtime": 1792101590.3324945,
+    "ast_hash": "42e5b2ca078fc439dd182ef0345d61ff",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/caveman/README.md": {
+    "mtime": 1792101590.3390841,
+    "ast_hash": "0bc62afc353fc8bd9880b162614da262",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/caveman/SKILL.md": {
+    "mtime": 1792101590.3396213,
+    "ast_hash": "baf31f05684b6d6aa9db45130dde1700",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/darou-pakhsh-projects/SKILL.md": {
+    "mtime": 1792101590.3407557,
+    "ast_hash": "de6d10979db7cc817e20da3d67750a5d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/darou-pakhsh-projects/schemas.md": {
+    "mtime": 1792101590.3412845,
+    "ast_hash": "2877134c5afe343a11f0d4e7dff2909e",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/daroupakhsh-srv-ai/SKILL.md": {
+    "mtime": 1792101590.3418703,
+    "ast_hash": "4142f8834e178171f970496dc7597dce",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/irancell-ubuntu-t3/SKILL.md": {
+    "mtime": 1792101590.3733206,
+    "ast_hash": "e86a129a9f5eac685e76507106585995",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/lean-ctx/SKILL.md": {
+    "mtime": 1792101590.3753207,
+    "ast_hash": "f06c6f27e5bcd1b375286d2bd34ab15b",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/loopx-global-risks/SKILL.md": {
+    "mtime": 1792101590.3834672,
+    "ast_hash": "c67eb115314b43f62f18e0c95b4de0e6",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/manage-project-docs/SKILL.md": {
+    "mtime": 1792101590.3844686,
+    "ast_hash": "75a721b1c8cd22860c80bd3914c068ee",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/manage-ubuntu/SKILL.md": {
+    "mtime": 1792101590.3869762,
+    "ast_hash": "046f4ad44dea6dd0bfd8a9f8a479ac2d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/manage-windows-firewall/SKILL.md": {
+    "mtime": 1792101590.3869762,
+    "ast_hash": "c79f89da5015f37e3e47c35a6a658546",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/manage-windows-processes/SKILL.md": {
+    "mtime": 1792101590.3879757,
+    "ast_hash": "d537a84831dc08466a7fc0c2ff5499d6",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/manage-windows-resources/SKILL.md": {
+    "mtime": 1792101590.3889759,
+    "ast_hash": "f710f16bbd6d722d9f5c9a75a7ea6458",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-analyze/SKILL.md": {
+    "mtime": 1792101590.3959801,
+    "ast_hash": "7e0f332a55dd540a191bb429f43c1488",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-checklist/SKILL.md": {
+    "mtime": 1792101590.3969803,
+    "ast_hash": "7655a42d41bb472e2ea1beddb3b89531",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-clarify/SKILL.md": {
+    "mtime": 1792101590.3979802,
+    "ast_hash": "476a6117499f215810cb08df93e569d6",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-constitution/SKILL.md": {
+    "mtime": 1792101590.3979802,
+    "ast_hash": "b0e2b2201a9856989121d75fea7bfe92",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-converge/SKILL.md": {
+    "mtime": 1792101590.39898,
+    "ast_hash": "b0c1650890aedbf57cfddae2a57faf57",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-implement/SKILL.md": {
+    "mtime": 1792101590.3999815,
+    "ast_hash": "0f0dada9bf9838166de57f0769c85cbd",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-plan/SKILL.md": {
+    "mtime": 1792101590.4009802,
+    "ast_hash": "1bd03006db06a8865000e0c1b1b05801",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-specify/SKILL.md": {
+    "mtime": 1792101590.4009802,
+    "ast_hash": "6980c4beec379e0875964f006297a8b5",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-tasks-to-issues/SKILL.md": {
+    "mtime": 1792101590.4019792,
+    "ast_hash": "55510cc17f3899f151a3c539cfe5af34",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-tasks/SKILL.md": {
+    "mtime": 1792101590.4029787,
+    "ast_hash": "2712245aa5b0d8681924f875478c854c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/speckit-taskstoissues/SKILL.md": {
+    "mtime": 1792101590.4029787,
+    "ast_hash": "16dc19cd5f5186d83d00c27e54085193",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/suggest-improvements/SKILL.md": {
+    "mtime": 1792101590.40398,
+    "ast_hash": "601fd1bdaf2d2242ebf52fc22c1b995c",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/write-completion-report/SKILL.md": {
+    "mtime": 1792101590.40398,
+    "ast_hash": "e04204e6460e749c00665e37eefb4c5a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-icon-dark.png": {
+    "mtime": 1792101591.1101313,
+    "ast_hash": "0553881534a34e438dfe8949a6f42c5e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-icon-dark.svg": {
+    "mtime": 1792101591.1111355,
+    "ast_hash": "d2a8290853abce0527d1d8977d2df4d8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-icon-white.png": {
+    "mtime": 1792101591.1111355,
+    "ast_hash": "0553881534a34e438dfe8949a6f42c5e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-icon-white.svg": {
+    "mtime": 1792101591.1111355,
+    "ast_hash": "d2a8290853abce0527d1d8977d2df4d8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-large-dark.png": {
+    "mtime": 1792101591.1111355,
+    "ast_hash": "c251a7b27e685f33c4e3b330430c572c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-large-dark.svg": {
+    "mtime": 1792101591.1126392,
+    "ast_hash": "63ba30f3b12425399f2ba7fce39daf66",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-large-white.png": {
+    "mtime": 1792101591.1126392,
+    "ast_hash": "c251a7b27e685f33c4e3b330430c572c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-large-white.svg": {
+    "mtime": 1792101591.1131911,
+    "ast_hash": "63ba30f3b12425399f2ba7fce39daf66",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-medium-dark.png": {
+    "mtime": 1792101591.1131911,
+    "ast_hash": "97c6a5297214af745a86fc21cbd125b0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-medium-dark.svg": {
+    "mtime": 1792101591.1131911,
+    "ast_hash": "cee6a07769869e7a54fda8fbd1ea6620",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-medium-white.png": {
+    "mtime": 1792101591.1141953,
+    "ast_hash": "97c6a5297214af745a86fc21cbd125b0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-medium-white.svg": {
+    "mtime": 1792101591.1141953,
+    "ast_hash": "cee6a07769869e7a54fda8fbd1ea6620",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-small-dark.png": {
+    "mtime": 1792101591.1141953,
+    "ast_hash": "8d3366feef604d9d6e1c542f38f8c07f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-small-dark.svg": {
+    "mtime": 1792101591.1151953,
+    "ast_hash": "38c766690c836b6ae628885410b0a5d0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-small-white.png": {
+    "mtime": 1792101591.1151953,
+    "ast_hash": "8d3366feef604d9d6e1c542f38f8c07f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/amd-small-white.svg": {
+    "mtime": 1792101591.1151953,
+    "ast_hash": "38c766690c836b6ae628885410b0a5d0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-icon-dark.png": {
+    "mtime": 1792101591.1161957,
+    "ast_hash": "3c03334042fefe9838c29ebff92ad027",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-icon-dark.svg": {
+    "mtime": 1792101591.1161957,
+    "ast_hash": "95ac7488c66ffed6f0f2e52d3fb4def5",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-icon-white.png": {
+    "mtime": 1792101591.1169143,
+    "ast_hash": "9c229f0ca2695be4109ce9d93a3711e9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-icon-white.svg": {
+    "mtime": 1792101591.1169143,
+    "ast_hash": "2ca3a42cf29a132e8a08056a384fc1ac",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-large-dark.png": {
+    "mtime": 1792101591.1169143,
+    "ast_hash": "f8aabd32ffcd5875db96124a5e5269bf",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-large-dark.svg": {
+    "mtime": 1792101591.117919,
+    "ast_hash": "0fcf507d205fb9de90e2bce8f4b8862b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-large-white.png": {
+    "mtime": 1792101591.117919,
+    "ast_hash": "7dbef025d2146901848a6200ebf802b7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-large-white.svg": {
+    "mtime": 1792101591.1187139,
+    "ast_hash": "ece8c5d0cc682fcb06fbd6146dc37f81",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-medium-dark.png": {
+    "mtime": 1792101591.1192281,
+    "ast_hash": "30fbdd3c8d03cd35483df3f4ed027452",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-medium-dark.svg": {
+    "mtime": 1792101591.1192281,
+    "ast_hash": "394683fbfc43bfb58ac4cf2d6536025d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-medium-white.png": {
+    "mtime": 1792101591.120236,
+    "ast_hash": "d5aacc54f9c24a122395775236a5f94f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-medium-white.svg": {
+    "mtime": 1792101591.120236,
+    "ast_hash": "c46b53f6f330b9d784c6de7479d8026f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-small-dark.png": {
+    "mtime": 1792101591.120236,
+    "ast_hash": "d4da714b6a9d3984376e4a31389f3484",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-small-dark.svg": {
+    "mtime": 1792101591.1212335,
+    "ast_hash": "bbf7510c7dfcc7e29149778744d9bab0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-small-white.png": {
+    "mtime": 1792101591.1212335,
+    "ast_hash": "b987abfe3c7383b139f19f7993e709c6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/anthropic-small-white.svg": {
+    "mtime": 1792101591.1218398,
+    "ast_hash": "adc41b1f0228031afe11aed6fb4a9175",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-icon-dark.png": {
+    "mtime": 1792101591.122344,
+    "ast_hash": "15decb516110b4ea7ffecce36afc8780",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-icon-dark.svg": {
+    "mtime": 1792101591.122344,
+    "ast_hash": "14d0326fd3e19bc160e784e48503171a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-icon-white.png": {
+    "mtime": 1792101591.122344,
+    "ast_hash": "15decb516110b4ea7ffecce36afc8780",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-icon-white.svg": {
+    "mtime": 1792101591.1233485,
+    "ast_hash": "14d0326fd3e19bc160e784e48503171a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-large-dark.png": {
+    "mtime": 1792101591.1243477,
+    "ast_hash": "077f8629c409a99b80ac21610aa29578",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-large-dark.svg": {
+    "mtime": 1792101591.1243477,
+    "ast_hash": "25d315467c52b37507a2f14c302c89bd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-large-white.png": {
+    "mtime": 1792101591.1251252,
+    "ast_hash": "077f8629c409a99b80ac21610aa29578",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-large-white.svg": {
+    "mtime": 1792101591.1251252,
+    "ast_hash": "25d315467c52b37507a2f14c302c89bd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-medium-dark.png": {
+    "mtime": 1792101591.1256287,
+    "ast_hash": "92ae0f4e58919ba75e7fbb766e233e37",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-medium-dark.svg": {
+    "mtime": 1792101591.1256287,
+    "ast_hash": "b6a7f44995deace229648b2306b6b4cf",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-medium-white.png": {
+    "mtime": 1792101591.1266336,
+    "ast_hash": "92ae0f4e58919ba75e7fbb766e233e37",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-medium-white.svg": {
+    "mtime": 1792101591.1266336,
+    "ast_hash": "b6a7f44995deace229648b2306b6b4cf",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-small-dark.png": {
+    "mtime": 1792101591.1266336,
+    "ast_hash": "2ab4a91e640c593c3d9ad90b99a6de35",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-small-dark.svg": {
+    "mtime": 1792101591.1276326,
+    "ast_hash": "4d48acea4e10ffe086b9367724eac2a6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-small-white.png": {
+    "mtime": 1792101591.1276326,
+    "ast_hash": "2ab4a91e640c593c3d9ad90b99a6de35",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/antigravity-small-white.svg": {
+    "mtime": 1792101591.1276326,
+    "ast_hash": "4d48acea4e10ffe086b9367724eac2a6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-icon-dark.png": {
+    "mtime": 1792101591.1276326,
+    "ast_hash": "27c7ce1a65f7a129aec30085edbce7ae",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-icon-dark.svg": {
+    "mtime": 1792101591.1291382,
+    "ast_hash": "2eaca520851e3afa528659c3225bd195",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-icon-white.png": {
+    "mtime": 1792101591.129565,
+    "ast_hash": "e4068f35f6d086a1add96acb21b0f8f9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-icon-white.svg": {
+    "mtime": 1792101591.129565,
+    "ast_hash": "cb85a2d28b111837be2ce5e740672fa7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-large-dark.png": {
+    "mtime": 1792101591.1300673,
+    "ast_hash": "b09d4286067db66e9196ef2ceca9ebee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-large-dark.svg": {
+    "mtime": 1792101591.1300673,
+    "ast_hash": "7e7b91dd754bfb742de9588c3ea6deda",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-large-white.png": {
+    "mtime": 1792101591.1300673,
+    "ast_hash": "dce145c9948fcd22b413dbcd8237052a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-large-white.svg": {
+    "mtime": 1792101591.1310718,
+    "ast_hash": "74011cfc7ed43f2d8424012a0b6518bd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-medium-dark.png": {
+    "mtime": 1792101591.1310718,
+    "ast_hash": "6419a4a4424553d63f72a478c8a3e3d0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-medium-dark.svg": {
+    "mtime": 1792101591.1320715,
+    "ast_hash": "696a5a09875c738ea1c125bc417d5e52",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-medium-white.png": {
+    "mtime": 1792101591.1320715,
+    "ast_hash": "7270c086fe8844f6299060225fe7680b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-medium-white.svg": {
+    "mtime": 1792101591.1320715,
+    "ast_hash": "30681ca09935ebbfaadcad1ee5145560",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-small-dark.png": {
+    "mtime": 1792101591.1330712,
+    "ast_hash": "c0b86ae054c649a40124398b9d9a8dab",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-small-dark.svg": {
+    "mtime": 1792101591.1330712,
+    "ast_hash": "677ab3047ed2a6c99081662bffbbb732",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-small-white.png": {
+    "mtime": 1792101591.1330712,
+    "ast_hash": "f2f0925129ae0d8848997b9905c447ee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/asus-small-white.svg": {
+    "mtime": 1792101591.1340714,
+    "ast_hash": "a858eebea84f7ba28af29412a5d90fd8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-icon-dark.png": {
+    "mtime": 1792101591.1340714,
+    "ast_hash": "7e1cb3d58b91fea37562de064ebf84a2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-icon-dark.svg": {
+    "mtime": 1792101591.1340714,
+    "ast_hash": "27e43bd8a11a178495bb727ad47926f7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-icon-white.png": {
+    "mtime": 1792101591.1340714,
+    "ast_hash": "7e1cb3d58b91fea37562de064ebf84a2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-icon-white.svg": {
+    "mtime": 1792101591.1350713,
+    "ast_hash": "27e43bd8a11a178495bb727ad47926f7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-large-dark.png": {
+    "mtime": 1792101591.1350713,
+    "ast_hash": "67bfd56f9bd0b5dc3758e4ada83151d4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-large-dark.svg": {
+    "mtime": 1792101591.1360707,
+    "ast_hash": "11574b925c30695df67b953872df54af",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-large-white.png": {
+    "mtime": 1792101591.1360707,
+    "ast_hash": "67bfd56f9bd0b5dc3758e4ada83151d4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-large-white.svg": {
+    "mtime": 1792101591.1360707,
+    "ast_hash": "11574b925c30695df67b953872df54af",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-medium-dark.png": {
+    "mtime": 1792101591.137072,
+    "ast_hash": "35bc3ba962be382a9661242fd53a10f7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-medium-dark.svg": {
+    "mtime": 1792101591.137072,
+    "ast_hash": "481e8b089e7c5df9e001ca7a8000f829",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-medium-white.png": {
+    "mtime": 1792101591.1380723,
+    "ast_hash": "35bc3ba962be382a9661242fd53a10f7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-medium-white.svg": {
+    "mtime": 1792101591.1380723,
+    "ast_hash": "481e8b089e7c5df9e001ca7a8000f829",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-small-dark.png": {
+    "mtime": 1792101591.1390755,
+    "ast_hash": "1fd90bbd7541e8e547f4359c120f0d6d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-small-dark.svg": {
+    "mtime": 1792101591.1390755,
+    "ast_hash": "7c56af5ab518ce68daaebad954f2f99c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-small-white.png": {
+    "mtime": 1792101591.1400726,
+    "ast_hash": "1fd90bbd7541e8e547f4359c120f0d6d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/chatgpt-small-white.svg": {
+    "mtime": 1792101591.1400726,
+    "ast_hash": "7c56af5ab518ce68daaebad954f2f99c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-icon-dark.png": {
+    "mtime": 1792101591.1410775,
+    "ast_hash": "5bcd7fa6007b5c35642da8bbfbdea9c9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-icon-dark.svg": {
+    "mtime": 1792101591.1410775,
+    "ast_hash": "3b01864d14e2aced2d4e3af0a45b3cf8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-icon-white.png": {
+    "mtime": 1792101591.1420765,
+    "ast_hash": "5bcd7fa6007b5c35642da8bbfbdea9c9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-icon-white.svg": {
+    "mtime": 1792101591.1420765,
+    "ast_hash": "3b01864d14e2aced2d4e3af0a45b3cf8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-large-dark.png": {
+    "mtime": 1792101591.1420765,
+    "ast_hash": "5087bebf9074b6a28f603f932ded4dda",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-large-dark.svg": {
+    "mtime": 1792101591.1430805,
+    "ast_hash": "ca1c88eee1d6a7dae3ad24c57d1b3c42",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-large-white.png": {
+    "mtime": 1792101591.1430805,
+    "ast_hash": "5087bebf9074b6a28f603f932ded4dda",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-large-white.svg": {
+    "mtime": 1792101591.1440806,
+    "ast_hash": "ca1c88eee1d6a7dae3ad24c57d1b3c42",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-medium-dark.png": {
+    "mtime": 1792101591.1440806,
+    "ast_hash": "9af4b5b792215e764d08a92a74e9bc0d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-medium-dark.svg": {
+    "mtime": 1792101591.1440806,
+    "ast_hash": "f50f74363edec2e3a067a35209b929c9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-medium-white.png": {
+    "mtime": 1792101591.1450796,
+    "ast_hash": "9af4b5b792215e764d08a92a74e9bc0d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-medium-white.svg": {
+    "mtime": 1792101591.1450796,
+    "ast_hash": "f50f74363edec2e3a067a35209b929c9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-small-dark.png": {
+    "mtime": 1792101591.1460807,
+    "ast_hash": "ea648840c5577aa248480758c6ba27d0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-small-dark.svg": {
+    "mtime": 1792101591.1460807,
+    "ast_hash": "a2b676c08ba2b887ad814e47c7fbbcae",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-small-white.png": {
+    "mtime": 1792101591.1470835,
+    "ast_hash": "ea648840c5577aa248480758c6ba27d0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/claude-small-white.svg": {
+    "mtime": 1792101591.1470835,
+    "ast_hash": "a2b676c08ba2b887ad814e47c7fbbcae",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-icon-dark.png": {
+    "mtime": 1792101591.1480799,
+    "ast_hash": "deeed63fd30aacac06d267523b7376da",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-icon-dark.svg": {
+    "mtime": 1792101591.1480799,
+    "ast_hash": "7e325fd8dbebcb990a9234f35202acc4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-icon-white.png": {
+    "mtime": 1792101591.1480799,
+    "ast_hash": "ac47fb6c9d12a5f0ea0307ffadc43ebe",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-icon-white.svg": {
+    "mtime": 1792101591.1490815,
+    "ast_hash": "2e8f38685d2e150daaa75eb0519ae25c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-large-dark.png": {
+    "mtime": 1792101591.1490815,
+    "ast_hash": "349512c65ea0f3a4e24198dcc0a68de1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-large-dark.svg": {
+    "mtime": 1792101591.1500812,
+    "ast_hash": "e8034c2db59ea2806dce2adbe871af6c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-large-white.png": {
+    "mtime": 1792101591.1500812,
+    "ast_hash": "9d873b36b95741cc5660ebfd0ef905ab",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-large-white.svg": {
+    "mtime": 1792101591.1500812,
+    "ast_hash": "d786b848bbd597910563abc330d62a3b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-medium-dark.png": {
+    "mtime": 1792101591.1510804,
+    "ast_hash": "653488d7b2bcf4a4d625a700a769d0cb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-medium-dark.svg": {
+    "mtime": 1792101591.1510804,
+    "ast_hash": "2dc5df907710a841a88950604a566b08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-medium-white.png": {
+    "mtime": 1792101591.1510804,
+    "ast_hash": "55ff33bb8d69af333b7d94dd5931088c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-medium-white.svg": {
+    "mtime": 1792101591.1520803,
+    "ast_hash": "b7a23980e1dd6439c903be098e21b494",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-small-dark.png": {
+    "mtime": 1792101591.1520803,
+    "ast_hash": "1001576701108967b06befe45c0b9fc8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-small-dark.svg": {
+    "mtime": 1792101591.1530807,
+    "ast_hash": "210e38fcad8777911ed8442fc654c0ab",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-small-white.png": {
+    "mtime": 1792101591.1530807,
+    "ast_hash": "d499b2968e4f80b692f1864828a70f5f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/corsair-small-white.svg": {
+    "mtime": 1792101591.1540802,
+    "ast_hash": "b96a6985a12e00980f85e9b471098b0d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-icon-dark.png": {
+    "mtime": 1792101591.1540802,
+    "ast_hash": "c8b79434047658d8b358df417b993eb4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-icon-dark.svg": {
+    "mtime": 1792101591.1550827,
+    "ast_hash": "8ba7c308f5c95376f5f82a8b2c932b5f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-icon-white.png": {
+    "mtime": 1792101591.1550827,
+    "ast_hash": "7a90c234dd1cea87720b501633144ab5",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-icon-white.svg": {
+    "mtime": 1792101591.1560802,
+    "ast_hash": "3edaa4d18065279d37739603a63134f0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-large-dark.png": {
+    "mtime": 1792101591.1560802,
+    "ast_hash": "19cd6299e5e8875c2c738959092f3e0f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-large-dark.svg": {
+    "mtime": 1792101591.1560802,
+    "ast_hash": "ebef8a5c6f5eb352a33828352d7810e4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-large-white.png": {
+    "mtime": 1792101591.1570842,
+    "ast_hash": "148b0be44b011c85a23d0990dc40716f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-large-white.svg": {
+    "mtime": 1792101591.1575878,
+    "ast_hash": "73ad4d789b08d5bef843b3d05588d6b6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-medium-dark.png": {
+    "mtime": 1792101591.1575878,
+    "ast_hash": "3306534df5e0368da0a8c1bde423289d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-medium-dark.svg": {
+    "mtime": 1792101591.1575878,
+    "ast_hash": "e93b65581432fa885eed5c1e2ee66f31",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-medium-white.png": {
+    "mtime": 1792101591.1585922,
+    "ast_hash": "527b6c3979c702df0ee4a0e0da62d103",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-medium-white.svg": {
+    "mtime": 1792101591.1585922,
+    "ast_hash": "854cb60e1d483b587051e12169031692",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-small-dark.png": {
+    "mtime": 1792101591.159593,
+    "ast_hash": "e5461d97fa878155dae7244e8aabc204",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-small-dark.svg": {
+    "mtime": 1792101591.1605942,
+    "ast_hash": "ad3d9eac5d4959cb5fd6129cb98b5fe1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-small-white.png": {
+    "mtime": 1792101591.1605942,
+    "ast_hash": "b96428623c607d491d5f04a5e829f867",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/cursor-small-white.svg": {
+    "mtime": 1792101591.1615927,
+    "ast_hash": "3d020736aa5fc0aae8d5fb9ebec97a5b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-icon-dark.png": {
+    "mtime": 1792101591.1615927,
+    "ast_hash": "5f41bcef486c1be0607cd04e2f33a15c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-icon-dark.svg": {
+    "mtime": 1792101591.1615927,
+    "ast_hash": "5f8b51abfbf423c0dd10577851df3839",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-icon-white.png": {
+    "mtime": 1792101591.1625926,
+    "ast_hash": "8ad6e546199da23556029dbaf69888b7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-icon-white.svg": {
+    "mtime": 1792101591.1625926,
+    "ast_hash": "32394f5765395c6f4dfd54f320cf2f0e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-large-dark.png": {
+    "mtime": 1792101591.1635935,
+    "ast_hash": "53b5bf198e82896dbc7e1bbeb7d693dc",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-large-dark.svg": {
+    "mtime": 1792101591.1635935,
+    "ast_hash": "e0e8bb19beab1a51cc147bd42592cfe2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-large-white.png": {
+    "mtime": 1792101591.1645918,
+    "ast_hash": "067206ac7a7f36a9ffb5e32a9a12992c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-large-white.svg": {
+    "mtime": 1792101591.1645918,
+    "ast_hash": "accc3d1336d6c75e847a562a417bb3f0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-medium-dark.png": {
+    "mtime": 1792101591.1655958,
+    "ast_hash": "41ae5574590fd0b2ef12416dc64c80d1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-medium-dark.svg": {
+    "mtime": 1792101591.1655958,
+    "ast_hash": "dc99323aa1b017e6d5c2133d336b57f9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-medium-white.png": {
+    "mtime": 1792101591.1655958,
+    "ast_hash": "d47e0c89c8983d5483a7da5e3353918d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-medium-white.svg": {
+    "mtime": 1792101591.166593,
+    "ast_hash": "92654b3c949c2e80b2982289788a8179",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-small-dark.png": {
+    "mtime": 1792101591.166593,
+    "ast_hash": "ca9ec13a322c322d8c633af1a56f65e3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-small-dark.svg": {
+    "mtime": 1792101591.1675913,
+    "ast_hash": "b3aba779b5f238057eaaab4ade9b3113",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-small-white.png": {
+    "mtime": 1792101591.1675913,
+    "ast_hash": "cde5a05eff75fcc9cf1f55e67dfebed0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/devin-small-white.svg": {
+    "mtime": 1792101591.168186,
+    "ast_hash": "cf96bd53f51cb5d2714c26c8982fd52b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-icon-dark.png": {
+    "mtime": 1792101591.168186,
+    "ast_hash": "c87441f9989ec564622fde0cad26d516",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-icon-dark.svg": {
+    "mtime": 1792101591.1691902,
+    "ast_hash": "c9a7c2177a61ea5ab4b42e1b55243e28",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-icon-white.png": {
+    "mtime": 1792101591.1691902,
+    "ast_hash": "c87441f9989ec564622fde0cad26d516",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-icon-white.svg": {
+    "mtime": 1792101591.1691902,
+    "ast_hash": "c9a7c2177a61ea5ab4b42e1b55243e28",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-large-dark.png": {
+    "mtime": 1792101591.170191,
+    "ast_hash": "b7610c39fe32f2ee7dd20642f45b8b6c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-large-dark.svg": {
+    "mtime": 1792101591.1715388,
+    "ast_hash": "b27a0f4654a086c29d79a7bc9c297c11",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-large-white.png": {
+    "mtime": 1792101591.1720428,
+    "ast_hash": "b7610c39fe32f2ee7dd20642f45b8b6c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-large-white.svg": {
+    "mtime": 1792101591.1720428,
+    "ast_hash": "b27a0f4654a086c29d79a7bc9c297c11",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-medium-dark.png": {
+    "mtime": 1792101591.1730478,
+    "ast_hash": "90f3948a1988bbf27a0e7d171ee8037c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-medium-dark.svg": {
+    "mtime": 1792101591.1730478,
+    "ast_hash": "f5d63a580b66c38d5a8517510e5b26aa",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-medium-white.png": {
+    "mtime": 1792101591.1730478,
+    "ast_hash": "90f3948a1988bbf27a0e7d171ee8037c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-medium-white.svg": {
+    "mtime": 1792101591.1740477,
+    "ast_hash": "f5d63a580b66c38d5a8517510e5b26aa",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-small-dark.png": {
+    "mtime": 1792101591.1740477,
+    "ast_hash": "b00c063561b0f048ef3b9d5e9a3c8e02",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-small-dark.svg": {
+    "mtime": 1792101591.1750474,
+    "ast_hash": "9261546d3d59b543bf3bf6b20c7c2917",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-small-white.png": {
+    "mtime": 1792101591.1750474,
+    "ast_hash": "b00c063561b0f048ef3b9d5e9a3c8e02",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/docker-small-white.svg": {
+    "mtime": 1792101591.1750474,
+    "ast_hash": "9261546d3d59b543bf3bf6b20c7c2917",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-icon-dark.png": {
+    "mtime": 1792101591.176047,
+    "ast_hash": "b874684499de1343c66add18d2cd6a84",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-icon-dark.svg": {
+    "mtime": 1792101591.176047,
+    "ast_hash": "cab857fc9102aee6dc107ddde4309ce6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-icon-white.png": {
+    "mtime": 1792101591.1770475,
+    "ast_hash": "b874684499de1343c66add18d2cd6a84",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-icon-white.svg": {
+    "mtime": 1792101591.1770475,
+    "ast_hash": "cab857fc9102aee6dc107ddde4309ce6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-large-dark.png": {
+    "mtime": 1792101591.1770475,
+    "ast_hash": "a356f93897ff4d97ca84f1bbad4cf20d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-large-dark.svg": {
+    "mtime": 1792101591.1780474,
+    "ast_hash": "ec44eda9c88a0cd22cf41d61be158f92",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-large-white.png": {
+    "mtime": 1792101591.1780474,
+    "ast_hash": "a356f93897ff4d97ca84f1bbad4cf20d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-large-white.svg": {
+    "mtime": 1792101591.179049,
+    "ast_hash": "ec44eda9c88a0cd22cf41d61be158f92",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-medium-dark.png": {
+    "mtime": 1792101591.179049,
+    "ast_hash": "4de70727236c00dab4820880ba2eacf7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-medium-dark.svg": {
+    "mtime": 1792101591.1800482,
+    "ast_hash": "f8f2c758bcf3d9af6ab9053b9e755f0b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-medium-white.png": {
+    "mtime": 1792101591.1800482,
+    "ast_hash": "4de70727236c00dab4820880ba2eacf7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-medium-white.svg": {
+    "mtime": 1792101591.1807785,
+    "ast_hash": "f8f2c758bcf3d9af6ab9053b9e755f0b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-small-dark.png": {
+    "mtime": 1792101591.1812823,
+    "ast_hash": "ba0bbf56189f7471a2917f40a17e0cb4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-small-dark.svg": {
+    "mtime": 1792101591.1812823,
+    "ast_hash": "b6539030657cce58f6fcd7159db526d8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-small-white.png": {
+    "mtime": 1792101591.1812823,
+    "ast_hash": "ba0bbf56189f7471a2917f40a17e0cb4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/gemini-small-white.svg": {
+    "mtime": 1792101591.1822922,
+    "ast_hash": "b6539030657cce58f6fcd7159db526d8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-icon-dark.png": {
+    "mtime": 1792101591.1822922,
+    "ast_hash": "209b0ad87e677601583b07d891626451",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-icon-dark.svg": {
+    "mtime": 1792101591.1822922,
+    "ast_hash": "e619b6fcf16ce86e2e148903f607096f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-icon-white.png": {
+    "mtime": 1792101591.183796,
+    "ast_hash": "a18a4390f5e2a8bf14e736ac40a97929",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-icon-white.svg": {
+    "mtime": 1792101591.183796,
+    "ast_hash": "e3076d68ccf640321c61198d61474f3f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-large-dark.png": {
+    "mtime": 1792101591.183796,
+    "ast_hash": "69ac2ba75899e8adbcc378f1274d2506",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-large-dark.svg": {
+    "mtime": 1792101591.184801,
+    "ast_hash": "c879b5f179d8a600563c5e706219c058",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-large-white.png": {
+    "mtime": 1792101591.184801,
+    "ast_hash": "0cec18fabef8b0eacdaa5ecd942171f0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-large-white.svg": {
+    "mtime": 1792101591.1857998,
+    "ast_hash": "ae1783611fd4bc85118df206a3765427",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-medium-dark.png": {
+    "mtime": 1792101591.1866183,
+    "ast_hash": "acf9a6f2d16466c6c8d80ca072ba9b82",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-medium-dark.svg": {
+    "mtime": 1792101591.1871226,
+    "ast_hash": "a9e717b096dcb41ff43c99c1edc3a9b6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-medium-white.png": {
+    "mtime": 1792101591.1871226,
+    "ast_hash": "bee8c05c2143a85f5e7d88f9c13e5345",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-medium-white.svg": {
+    "mtime": 1792101591.1881268,
+    "ast_hash": "616796f2114b99969d328bcd9a94b6a5",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-small-dark.png": {
+    "mtime": 1792101591.1881268,
+    "ast_hash": "e1bf3e1faae2a45fb6c20f5cd4e4a1be",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-small-dark.svg": {
+    "mtime": 1792101591.1881268,
+    "ast_hash": "9c1eac40ddd19821244891a1ed3cb48e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-small-white.png": {
+    "mtime": 1792101591.1891263,
+    "ast_hash": "30893424013bbac18907c9039cdd7a5a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/github-small-white.svg": {
+    "mtime": 1792101591.1891263,
+    "ast_hash": "45f4e3f547e0248a4fa7f082893eddbd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-icon-dark.png": {
+    "mtime": 1792101591.19013,
+    "ast_hash": "6814c0c75f43cbc2903c9795a753cad1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-icon-dark.svg": {
+    "mtime": 1792101591.19013,
+    "ast_hash": "da05c739d49e0a0d13018a60038c5fd0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-icon-white.png": {
+    "mtime": 1792101591.1911302,
+    "ast_hash": "6814c0c75f43cbc2903c9795a753cad1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-icon-white.svg": {
+    "mtime": 1792101591.1911302,
+    "ast_hash": "da05c739d49e0a0d13018a60038c5fd0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-large-dark.png": {
+    "mtime": 1792101591.1921325,
+    "ast_hash": "90cfd0d1ce9fba5f7c71d207fd14c4d9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-large-dark.svg": {
+    "mtime": 1792101591.1921325,
+    "ast_hash": "305db67579e19cd8b9fec7f140524361",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-large-white.png": {
+    "mtime": 1792101591.1931012,
+    "ast_hash": "90cfd0d1ce9fba5f7c71d207fd14c4d9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-large-white.svg": {
+    "mtime": 1792101591.1936076,
+    "ast_hash": "305db67579e19cd8b9fec7f140524361",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-medium-dark.png": {
+    "mtime": 1792101591.1936076,
+    "ast_hash": "688ceb0645cf30f61daabd6c1d821459",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-medium-dark.svg": {
+    "mtime": 1792101591.1946135,
+    "ast_hash": "805c6205edd3dc009c515c56f75ba08f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-medium-white.png": {
+    "mtime": 1792101591.1946135,
+    "ast_hash": "688ceb0645cf30f61daabd6c1d821459",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-medium-white.svg": {
+    "mtime": 1792101591.1946135,
+    "ast_hash": "805c6205edd3dc009c515c56f75ba08f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-small-dark.png": {
+    "mtime": 1792101591.1956117,
+    "ast_hash": "006077a28d1b8b9583139bf48dfe8c18",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-small-dark.svg": {
+    "mtime": 1792101591.1956117,
+    "ast_hash": "dd9369ea211ee0e13bc16dd31ea7a957",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-small-white.png": {
+    "mtime": 1792101591.1966126,
+    "ast_hash": "006077a28d1b8b9583139bf48dfe8c18",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/google-small-white.svg": {
+    "mtime": 1792101591.1966126,
+    "ast_hash": "dd9369ea211ee0e13bc16dd31ea7a957",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-icon-dark.png": {
+    "mtime": 1792101591.197613,
+    "ast_hash": "f16d4946431c0d9b70ab480c6b1e303e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-icon-dark.svg": {
+    "mtime": 1792101591.197613,
+    "ast_hash": "eb2bbe38b87ab639b580e20bc1a609e8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-icon-white.png": {
+    "mtime": 1792101591.1986127,
+    "ast_hash": "f16d4946431c0d9b70ab480c6b1e303e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-icon-white.svg": {
+    "mtime": 1792101591.1986127,
+    "ast_hash": "eb2bbe38b87ab639b580e20bc1a609e8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-large-dark.png": {
+    "mtime": 1792101591.199614,
+    "ast_hash": "fdb7b4b5f60950adfa47fcb18565d412",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-large-dark.svg": {
+    "mtime": 1792101591.2006142,
+    "ast_hash": "7f99d7a73a591a2a0379cb1da6d62539",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-large-white.png": {
+    "mtime": 1792101591.201614,
+    "ast_hash": "fdb7b4b5f60950adfa47fcb18565d412",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-large-white.svg": {
+    "mtime": 1792101591.202613,
+    "ast_hash": "7f99d7a73a591a2a0379cb1da6d62539",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-medium-dark.png": {
+    "mtime": 1792101591.202613,
+    "ast_hash": "ed99e75e704170d9e938716748fa4e08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-medium-dark.svg": {
+    "mtime": 1792101591.204119,
+    "ast_hash": "9bd7164e4c9d67379c7f376ae3dc137d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-medium-white.png": {
+    "mtime": 1792101591.206123,
+    "ast_hash": "ed99e75e704170d9e938716748fa4e08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-medium-white.svg": {
+    "mtime": 1792101591.2069762,
+    "ast_hash": "9bd7164e4c9d67379c7f376ae3dc137d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-small-dark.png": {
+    "mtime": 1792101591.2069762,
+    "ast_hash": "919a2f57698d1f428ad749e3b626091a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-small-dark.svg": {
+    "mtime": 1792101591.2079806,
+    "ast_hash": "5574c461eef02970d37d4dfd8a71a41b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-small-white.png": {
+    "mtime": 1792101591.2079806,
+    "ast_hash": "919a2f57698d1f428ad749e3b626091a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/intel-small-white.svg": {
+    "mtime": 1792101591.2089815,
+    "ast_hash": "5574c461eef02970d37d4dfd8a71a41b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-icon-dark.png": {
+    "mtime": 1792101591.2089815,
+    "ast_hash": "ed5da96e93334264d7b74b7dbc2371fb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-icon-dark.svg": {
+    "mtime": 1792101591.209981,
+    "ast_hash": "ba4b7277dab0954d6c747c0744d8b7cd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-icon-white.png": {
+    "mtime": 1792101591.209981,
+    "ast_hash": "ed5da96e93334264d7b74b7dbc2371fb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-icon-white.svg": {
+    "mtime": 1792101591.2109797,
+    "ast_hash": "ba4b7277dab0954d6c747c0744d8b7cd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-large-dark.png": {
+    "mtime": 1792101591.2114828,
+    "ast_hash": "cb8690ef7bb2e5b665ed9196d595e3f1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-large-dark.svg": {
+    "mtime": 1792101591.2114828,
+    "ast_hash": "8421d6f8ba5ae2045d81561138c0880c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-large-white.png": {
+    "mtime": 1792101591.2124891,
+    "ast_hash": "cb8690ef7bb2e5b665ed9196d595e3f1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-large-white.svg": {
+    "mtime": 1792101591.2124891,
+    "ast_hash": "8421d6f8ba5ae2045d81561138c0880c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-medium-dark.png": {
+    "mtime": 1792101591.2124891,
+    "ast_hash": "9802566d9b6aa55b95a526df7f96cb5d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-medium-dark.svg": {
+    "mtime": 1792101591.2134898,
+    "ast_hash": "3083239969f7f6ba53ee99c47c538295",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-medium-white.png": {
+    "mtime": 1792101591.2134898,
+    "ast_hash": "9802566d9b6aa55b95a526df7f96cb5d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-medium-white.svg": {
+    "mtime": 1792101591.2144878,
+    "ast_hash": "3083239969f7f6ba53ee99c47c538295",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-small-dark.png": {
+    "mtime": 1792101591.2144878,
+    "ast_hash": "690f5ee1c10bc10cd3e64a5b80728e3b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-small-dark.svg": {
+    "mtime": 1792101591.2154877,
+    "ast_hash": "dab140e1684c23f368e90f8f34be01a8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-small-white.png": {
+    "mtime": 1792101591.2154877,
+    "ast_hash": "690f5ee1c10bc10cd3e64a5b80728e3b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/microsoft-small-white.svg": {
+    "mtime": 1792101591.2163951,
+    "ast_hash": "dab140e1684c23f368e90f8f34be01a8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-icon-dark.png": {
+    "mtime": 1792101591.2168996,
+    "ast_hash": "db645b2c8b12b352cf6abc101b06cd00",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-icon-dark.svg": {
+    "mtime": 1792101591.2168996,
+    "ast_hash": "f671c64fa8920addccedf20ed6bdd3db",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-icon-white.png": {
+    "mtime": 1792101591.2179048,
+    "ast_hash": "db645b2c8b12b352cf6abc101b06cd00",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-icon-white.svg": {
+    "mtime": 1792101591.2179048,
+    "ast_hash": "f671c64fa8920addccedf20ed6bdd3db",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-large-dark.png": {
+    "mtime": 1792101591.218904,
+    "ast_hash": "514fb4506c061197054f734950b2da43",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-large-dark.svg": {
+    "mtime": 1792101591.2199044,
+    "ast_hash": "28b5a36d04d9e4f0937863d4392c45a2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-large-white.png": {
+    "mtime": 1792101591.2209034,
+    "ast_hash": "514fb4506c061197054f734950b2da43",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-large-white.svg": {
+    "mtime": 1792101591.2209034,
+    "ast_hash": "28b5a36d04d9e4f0937863d4392c45a2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-medium-dark.png": {
+    "mtime": 1792101591.2219052,
+    "ast_hash": "7b1b560c1f9f89d3dc10219a825461f8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-medium-dark.svg": {
+    "mtime": 1792101591.2219052,
+    "ast_hash": "9991347fb69ddb640f21d86a42d66503",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-medium-white.png": {
+    "mtime": 1792101591.2249174,
+    "ast_hash": "7b1b560c1f9f89d3dc10219a825461f8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-medium-white.svg": {
+    "mtime": 1792101591.2259178,
+    "ast_hash": "9991347fb69ddb640f21d86a42d66503",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-small-dark.png": {
+    "mtime": 1792101591.2270396,
+    "ast_hash": "617b3d6ad0b3d0a6bb90d807d9e87d76",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-small-dark.svg": {
+    "mtime": 1792101591.2270396,
+    "ast_hash": "e280ffb267846ed7bb912b45038f7956",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-small-white.png": {
+    "mtime": 1792101591.2277746,
+    "ast_hash": "617b3d6ad0b3d0a6bb90d807d9e87d76",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/nvidia-small-white.svg": {
+    "mtime": 1792101591.2287793,
+    "ast_hash": "e280ffb267846ed7bb912b45038f7956",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-icon-dark.png": {
+    "mtime": 1792101591.2287793,
+    "ast_hash": "07114b78c86b7cbdda406a5534385d44",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-icon-dark.svg": {
+    "mtime": 1792101591.2287793,
+    "ast_hash": "33e584772799a8e1751e338b4afbf4d4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-icon-white.png": {
+    "mtime": 1792101591.2297783,
+    "ast_hash": "afcc36757377a10fe49de9d95eab8200",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-icon-white.svg": {
+    "mtime": 1792101591.2307804,
+    "ast_hash": "9c0292e6f27d9f997c24d123f3f4932d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-large-dark.png": {
+    "mtime": 1792101591.2317789,
+    "ast_hash": "ab24d8f23c79f8c6fd7422c384d8908e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-large-dark.svg": {
+    "mtime": 1792101591.2317789,
+    "ast_hash": "3c820d6b3c188c2a6552459d8a20eca1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-large-white.png": {
+    "mtime": 1792101591.2327802,
+    "ast_hash": "66346de1f30aa155cb724d82db99899f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-large-white.svg": {
+    "mtime": 1792101591.2327802,
+    "ast_hash": "fc373404d8df4a80f5ca65764f8a3993",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-medium-dark.png": {
+    "mtime": 1792101591.2337801,
+    "ast_hash": "411e6dea81e1ca41cdbc8bc7f37647fe",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-medium-dark.svg": {
+    "mtime": 1792101591.2337801,
+    "ast_hash": "fe05188e44609fec32a712d52175609b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-medium-white.png": {
+    "mtime": 1792101591.2347834,
+    "ast_hash": "6806a0c5d082c1c84b3153b88bc1667c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-medium-white.svg": {
+    "mtime": 1792101591.2353363,
+    "ast_hash": "3e711a77aceb2bbad583e2bfae2fa251",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-small-dark.png": {
+    "mtime": 1792101591.236341,
+    "ast_hash": "b7eeb04796a8037f4f3d2d57d785adf5",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-small-dark.svg": {
+    "mtime": 1792101591.23734,
+    "ast_hash": "339a994b1e785cc091ebf3b88df98e5b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-small-white.png": {
+    "mtime": 1792101591.23842,
+    "ast_hash": "6a2c395b250d0aa468143db789b68ecc",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openai-small-white.svg": {
+    "mtime": 1792101591.23842,
+    "ast_hash": "07618dcb7830be08f996d4d4da001c63",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-icon-dark.png": {
+    "mtime": 1792101591.2394216,
+    "ast_hash": "88f4ddfa86120d015eb3a64661d065b7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-icon-dark.svg": {
+    "mtime": 1792101591.240423,
+    "ast_hash": "c216327c17d2ce2440c3c135af938f60",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-icon-white.png": {
+    "mtime": 1792101591.240423,
+    "ast_hash": "12281b707721080c3df2cb265a77ef29",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-icon-white.svg": {
+    "mtime": 1792101591.241421,
+    "ast_hash": "af979b724787ae086c06c5f8919a575e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-large-dark.png": {
+    "mtime": 1792101591.241421,
+    "ast_hash": "a7748bc3d21c6a4266b991cd53478015",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-large-dark.svg": {
+    "mtime": 1792101591.2434204,
+    "ast_hash": "1158a80ed62acd877334af8157a81632",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-large-white.png": {
+    "mtime": 1792101591.2434204,
+    "ast_hash": "755d3d4615231bc556aaa1d5750f4590",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-large-white.svg": {
+    "mtime": 1792101591.2434204,
+    "ast_hash": "555330d3403c09c8f92b89a95eae611d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-medium-dark.png": {
+    "mtime": 1792101591.2444208,
+    "ast_hash": "5126de66b9782e05e1861c0bb9832817",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-medium-dark.svg": {
+    "mtime": 1792101591.2457356,
+    "ast_hash": "cd5c0fe82a32c0e6a4197b5d0028fca1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-medium-white.png": {
+    "mtime": 1792101591.2462387,
+    "ast_hash": "e8070146bed6b6224ad99c9851140939",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-medium-white.svg": {
+    "mtime": 1792101591.2472427,
+    "ast_hash": "40e77fe0615bf6f7632d444e0b5da428",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-small-dark.png": {
+    "mtime": 1792101591.2472427,
+    "ast_hash": "aaa1a28948dd66e6aefab97cb3cc1e6d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-small-dark.svg": {
+    "mtime": 1792101591.2482479,
+    "ast_hash": "552234777da11eef8e8e0246087a1f94",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-small-white.png": {
+    "mtime": 1792101591.2482479,
+    "ast_hash": "3c8cb49727089f93b662e6de0732e5fe",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/opencode-small-white.svg": {
+    "mtime": 1792101591.2482479,
+    "ast_hash": "d15e85a0aeeee02e7325a6427ff1a831",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-icon-dark.png": {
+    "mtime": 1792101591.2492466,
+    "ast_hash": "49f4388fa104a8d6b099e93eda2159e1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-icon-dark.svg": {
+    "mtime": 1792101591.2492466,
+    "ast_hash": "a98e9c719b09875f1caea9c9f85433ab",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-icon-white.png": {
+    "mtime": 1792101591.2502472,
+    "ast_hash": "49f4388fa104a8d6b099e93eda2159e1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-icon-white.svg": {
+    "mtime": 1792101591.2502472,
+    "ast_hash": "a98e9c719b09875f1caea9c9f85433ab",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-large-dark.png": {
+    "mtime": 1792101591.2512472,
+    "ast_hash": "b759f4fd22c103377380a4dfb1af9663",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-large-dark.svg": {
+    "mtime": 1792101591.2512472,
+    "ast_hash": "8be153bd67f94a7a8b4cc90fddff2bdd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-large-white.png": {
+    "mtime": 1792101591.252245,
+    "ast_hash": "b759f4fd22c103377380a4dfb1af9663",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-large-white.svg": {
+    "mtime": 1792101591.252245,
+    "ast_hash": "8be153bd67f94a7a8b4cc90fddff2bdd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-medium-dark.png": {
+    "mtime": 1792101591.2535503,
+    "ast_hash": "15bacf6a76082ea1e23b733c18f26310",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-medium-dark.svg": {
+    "mtime": 1792101591.2535503,
+    "ast_hash": "31052e3f8aebd83e48f5b185218279de",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-medium-white.png": {
+    "mtime": 1792101591.2535503,
+    "ast_hash": "15bacf6a76082ea1e23b733c18f26310",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-medium-white.svg": {
+    "mtime": 1792101591.2545545,
+    "ast_hash": "31052e3f8aebd83e48f5b185218279de",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-small-dark.png": {
+    "mtime": 1792101591.2555544,
+    "ast_hash": "27ab175a806d292c80dbb26044b7c808",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-small-dark.svg": {
+    "mtime": 1792101591.2555544,
+    "ast_hash": "32340520a93595efb210aa81d9658e20",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-small-white.png": {
+    "mtime": 1792101591.2555544,
+    "ast_hash": "27ab175a806d292c80dbb26044b7c808",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/openvpn-small-white.svg": {
+    "mtime": 1792101591.2575562,
+    "ast_hash": "32340520a93595efb210aa81d9658e20",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-icon-dark.png": {
+    "mtime": 1792101591.258556,
+    "ast_hash": "05ec4171b725f424426c76a8d60be7c8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-icon-dark.svg": {
+    "mtime": 1792101591.258556,
+    "ast_hash": "1ef581679edfd21866745018a7154533",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-icon-white.png": {
+    "mtime": 1792101591.258556,
+    "ast_hash": "05ec4171b725f424426c76a8d60be7c8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-icon-white.svg": {
+    "mtime": 1792101591.2615564,
+    "ast_hash": "1ef581679edfd21866745018a7154533",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-large-dark.png": {
+    "mtime": 1792101591.2615564,
+    "ast_hash": "5e9304ff5a246d880fe80cba6e1852b9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-large-dark.svg": {
+    "mtime": 1792101591.2625556,
+    "ast_hash": "519659e991d18c98018bf9aedf620846",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-large-white.png": {
+    "mtime": 1792101591.2625556,
+    "ast_hash": "5e9304ff5a246d880fe80cba6e1852b9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-large-white.svg": {
+    "mtime": 1792101591.263837,
+    "ast_hash": "519659e991d18c98018bf9aedf620846",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-medium-dark.png": {
+    "mtime": 1792101591.263837,
+    "ast_hash": "468ab11b394a4a2a174c2e2d924abc6e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-medium-dark.svg": {
+    "mtime": 1792101591.2648413,
+    "ast_hash": "c6c4165e094444ea9d306f0b21594b64",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-medium-white.png": {
+    "mtime": 1792101591.2648413,
+    "ast_hash": "468ab11b394a4a2a174c2e2d924abc6e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-medium-white.svg": {
+    "mtime": 1792101591.265841,
+    "ast_hash": "c6c4165e094444ea9d306f0b21594b64",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-small-dark.png": {
+    "mtime": 1792101591.265841,
+    "ast_hash": "52f1aabcfa428da6c9a17e30e6c1a36f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-small-dark.svg": {
+    "mtime": 1792101591.266842,
+    "ast_hash": "2a389ac5cdbb58e1cb65d67c8a02ec52",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-small-white.png": {
+    "mtime": 1792101591.266842,
+    "ast_hash": "52f1aabcfa428da6c9a17e30e6c1a36f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/python-small-white.svg": {
+    "mtime": 1792101591.2678416,
+    "ast_hash": "2a389ac5cdbb58e1cb65d67c8a02ec52",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-icon-dark.png": {
+    "mtime": 1792101591.2678416,
+    "ast_hash": "75779d692a3956136154c60a39ca3745",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-icon-dark.svg": {
+    "mtime": 1792101591.2688413,
+    "ast_hash": "f07a8d59e83adf822298dadf78cc51ca",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-icon-white.png": {
+    "mtime": 1792101591.2698426,
+    "ast_hash": "75779d692a3956136154c60a39ca3745",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-icon-white.svg": {
+    "mtime": 1792101591.2718415,
+    "ast_hash": "f07a8d59e83adf822298dadf78cc51ca",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-large-dark.png": {
+    "mtime": 1792101591.272841,
+    "ast_hash": "f7e94cb5ac85e7783372a70e28bc66ca",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-large-dark.svg": {
+    "mtime": 1792101591.272841,
+    "ast_hash": "a2c87511786ec909275dfbe95c39d7d3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-large-white.png": {
+    "mtime": 1792101591.273843,
+    "ast_hash": "f7e94cb5ac85e7783372a70e28bc66ca",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-large-white.svg": {
+    "mtime": 1792101591.273843,
+    "ast_hash": "a2c87511786ec909275dfbe95c39d7d3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-medium-dark.png": {
+    "mtime": 1792101591.274842,
+    "ast_hash": "fe7de85085e5a80c6ab3db2a3f75339e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-medium-dark.svg": {
+    "mtime": 1792101591.2755308,
+    "ast_hash": "69b8a5f5629d519756f4b273b4feff08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-medium-white.png": {
+    "mtime": 1792101591.2755308,
+    "ast_hash": "fe7de85085e5a80c6ab3db2a3f75339e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-medium-white.svg": {
+    "mtime": 1792101591.2760553,
+    "ast_hash": "69b8a5f5629d519756f4b273b4feff08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-small-dark.png": {
+    "mtime": 1792101591.2790618,
+    "ast_hash": "66898ac8dc0bc1a14f42e1cb84482506",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-small-dark.svg": {
+    "mtime": 1792101591.2800593,
+    "ast_hash": "2afbe1d7dd065923cdf96587c35b1f85",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-small-white.png": {
+    "mtime": 1792101591.2800593,
+    "ast_hash": "66898ac8dc0bc1a14f42e1cb84482506",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/qwen-small-white.svg": {
+    "mtime": 1792101591.2810614,
+    "ast_hash": "2afbe1d7dd065923cdf96587c35b1f85",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-icon-dark.png": {
+    "mtime": 1792101591.2810614,
+    "ast_hash": "64966a7b31e75bfb4214411c167a8609",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-icon-dark.svg": {
+    "mtime": 1792101591.2820613,
+    "ast_hash": "735011150347c03d5a32ca44959e8cee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-icon-white.png": {
+    "mtime": 1792101591.2830615,
+    "ast_hash": "64966a7b31e75bfb4214411c167a8609",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-icon-white.svg": {
+    "mtime": 1792101591.2830615,
+    "ast_hash": "735011150347c03d5a32ca44959e8cee",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-large-dark.png": {
+    "mtime": 1792101591.28406,
+    "ast_hash": "89624c3a4270efcb94a889a07c55cbdc",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-large-dark.svg": {
+    "mtime": 1792101591.28406,
+    "ast_hash": "86b6bc7cda2b38e9268651d143767165",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-large-white.png": {
+    "mtime": 1792101591.2855632,
+    "ast_hash": "89624c3a4270efcb94a889a07c55cbdc",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-large-white.svg": {
+    "mtime": 1792101591.2855632,
+    "ast_hash": "86b6bc7cda2b38e9268651d143767165",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-medium-dark.png": {
+    "mtime": 1792101591.2865684,
+    "ast_hash": "2bdeb4aadacdfa4595d74a9bab7b8c36",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-medium-dark.svg": {
+    "mtime": 1792101591.2865684,
+    "ast_hash": "c5dd105f4775b6a7efebfab3bf551452",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-medium-white.png": {
+    "mtime": 1792101591.2865684,
+    "ast_hash": "2bdeb4aadacdfa4595d74a9bab7b8c36",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-medium-white.svg": {
+    "mtime": 1792101591.2875671,
+    "ast_hash": "c5dd105f4775b6a7efebfab3bf551452",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-small-dark.png": {
+    "mtime": 1792101591.2875671,
+    "ast_hash": "a4ec99dff5f3b74425aa42c39bd67c17",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-small-dark.svg": {
+    "mtime": 1792101591.2885678,
+    "ast_hash": "22416e78b44015ae1777951eb1ae2a6e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-small-white.png": {
+    "mtime": 1792101591.289572,
+    "ast_hash": "a4ec99dff5f3b74425aa42c39bd67c17",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/realtek-small-white.svg": {
+    "mtime": 1792101591.289572,
+    "ast_hash": "22416e78b44015ae1777951eb1ae2a6e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-icon-dark.png": {
+    "mtime": 1792101591.290573,
+    "ast_hash": "43652df6b07905c959d8b2b276295d08",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-icon-dark.svg": {
+    "mtime": 1792101591.291572,
+    "ast_hash": "3d04ea1f46189426973f881eba60b4f3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-icon-white.png": {
+    "mtime": 1792101591.291572,
+    "ast_hash": "46385c5be43407dcf92fa468e79a8678",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-icon-white.svg": {
+    "mtime": 1792101591.2925723,
+    "ast_hash": "2dd161835adf3e740ed71a0f644e149d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-large-dark.png": {
+    "mtime": 1792101591.2925723,
+    "ast_hash": "70fa95a7f2097b19e1992e607f81de7b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-large-dark.svg": {
+    "mtime": 1792101591.2925723,
+    "ast_hash": "51ac5485397ce48cad6638d0184e40be",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-large-white.png": {
+    "mtime": 1792101591.295573,
+    "ast_hash": "3c377574c6a8fee4946bb4d8674ba7b8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-large-white.svg": {
+    "mtime": 1792101591.295573,
+    "ast_hash": "1433c177d0812e44addf5da3814e18b1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-medium-dark.png": {
+    "mtime": 1792101591.2965727,
+    "ast_hash": "9903ac0823b87e856bb14b32ac2bc3e9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-medium-dark.svg": {
+    "mtime": 1792101591.297573,
+    "ast_hash": "ed72231f581696942024791335a9bff8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-medium-white.png": {
+    "mtime": 1792101591.2985733,
+    "ast_hash": "00b26f820955d51300b0e299af5baf27",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-medium-white.svg": {
+    "mtime": 1792101591.2985733,
+    "ast_hash": "011fe2c234b73c944f59de4683becc0f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-small-dark.png": {
+    "mtime": 1792101591.3005724,
+    "ast_hash": "a0bedd1cfc2fbf069bdd32207c4256f4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-small-dark.svg": {
+    "mtime": 1792101591.3012266,
+    "ast_hash": "991466629a0aaaa50e96b97781789354",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-small-white.png": {
+    "mtime": 1792101591.3022306,
+    "ast_hash": "7e0483484135db679d5dbeeb872315f2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/samsung-small-white.svg": {
+    "mtime": 1792101591.303231,
+    "ast_hash": "783a633c98cdfb91e741c9b778877a4f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-icon-dark.png": {
+    "mtime": 1792101591.3047383,
+    "ast_hash": "bc04c86f55ca7e7dbb2a354da4a75db2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-icon-dark.svg": {
+    "mtime": 1792101591.3056192,
+    "ast_hash": "23db74964e0f88aba3201ba6812b74be",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-icon-white.png": {
+    "mtime": 1792101591.3061235,
+    "ast_hash": "bc04c86f55ca7e7dbb2a354da4a75db2",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-icon-white.svg": {
+    "mtime": 1792101591.3081279,
+    "ast_hash": "23db74964e0f88aba3201ba6812b74be",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-large-dark.png": {
+    "mtime": 1792101591.3081279,
+    "ast_hash": "7272568362346d2ef6928b22dfc9fcde",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-large-dark.svg": {
+    "mtime": 1792101591.309129,
+    "ast_hash": "6eb9dcf7063a678e8a869479d02c5152",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-large-white.png": {
+    "mtime": 1792101591.309129,
+    "ast_hash": "7272568362346d2ef6928b22dfc9fcde",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-large-white.svg": {
+    "mtime": 1792101591.3101282,
+    "ast_hash": "6eb9dcf7063a678e8a869479d02c5152",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-medium-dark.png": {
+    "mtime": 1792101591.3101282,
+    "ast_hash": "4f84d777bfa53fc83a2e4779848f6d05",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-medium-dark.svg": {
+    "mtime": 1792101591.311128,
+    "ast_hash": "4ac9f6517321104453840559b4bdb77e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-medium-white.png": {
+    "mtime": 1792101591.3119967,
+    "ast_hash": "4f84d777bfa53fc83a2e4779848f6d05",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-medium-white.svg": {
+    "mtime": 1792101591.313001,
+    "ast_hash": "4ac9f6517321104453840559b4bdb77e",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-small-dark.png": {
+    "mtime": 1792101591.313001,
+    "ast_hash": "cceda8304fa7d568a5c098b93cc571ce",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-small-dark.svg": {
+    "mtime": 1792101591.3140013,
+    "ast_hash": "15d73c26180880f684bfa14bd68c7438",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-small-white.png": {
+    "mtime": 1792101591.3155065,
+    "ast_hash": "cceda8304fa7d568a5c098b93cc571ce",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/spotify-small-white.svg": {
+    "mtime": 1792101591.3155065,
+    "ast_hash": "15d73c26180880f684bfa14bd68c7438",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-icon-dark.png": {
+    "mtime": 1792101591.3165104,
+    "ast_hash": "798c8d209efb0f1285bd3def4249decf",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-icon-dark.svg": {
+    "mtime": 1792101591.3175125,
+    "ast_hash": "0dcd329dc3b40f6358c79ee1a80f5ece",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-icon-white.png": {
+    "mtime": 1792101591.3175125,
+    "ast_hash": "798c8d209efb0f1285bd3def4249decf",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-icon-white.svg": {
+    "mtime": 1792101591.318032,
+    "ast_hash": "0dcd329dc3b40f6358c79ee1a80f5ece",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-large-dark.png": {
+    "mtime": 1792101591.3215344,
+    "ast_hash": "7737f921488ce088a95b1bed1a0de04c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-large-dark.svg": {
+    "mtime": 1792101591.3215344,
+    "ast_hash": "76d0c6c23064fcd24fc0754b403247c1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-large-white.png": {
+    "mtime": 1792101591.322479,
+    "ast_hash": "7737f921488ce088a95b1bed1a0de04c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-large-white.svg": {
+    "mtime": 1792101591.3235333,
+    "ast_hash": "76d0c6c23064fcd24fc0754b403247c1",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-medium-dark.png": {
+    "mtime": 1792101591.3235333,
+    "ast_hash": "dd8e563579befec6c5859b59403d3d26",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-medium-dark.svg": {
+    "mtime": 1792101591.3245337,
+    "ast_hash": "338c1cdc8129bdc9188a6e5fa6f01beb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-medium-white.png": {
+    "mtime": 1792101591.3254414,
+    "ast_hash": "dd8e563579befec6c5859b59403d3d26",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-medium-white.svg": {
+    "mtime": 1792101591.3254414,
+    "ast_hash": "338c1cdc8129bdc9188a6e5fa6f01beb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-small-dark.png": {
+    "mtime": 1792101591.326446,
+    "ast_hash": "6d175b6d0e3224c9e6c945d90b473ed8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-small-dark.svg": {
+    "mtime": 1792101591.326446,
+    "ast_hash": "041243b9586e5ab772addee63cdeeb86",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-small-white.png": {
+    "mtime": 1792101591.3274467,
+    "ast_hash": "6d175b6d0e3224c9e6c945d90b473ed8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/telegram-small-white.svg": {
+    "mtime": 1792101591.3274467,
+    "ast_hash": "041243b9586e5ab772addee63cdeeb86",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-icon-dark.png": {
+    "mtime": 1792101591.3284461,
+    "ast_hash": "b460b75e8f0981172752bddcc64c00f9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-icon-dark.svg": {
+    "mtime": 1792101591.3284461,
+    "ast_hash": "5062631c8881a6fd143541b01d6aaf80",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-icon-white.png": {
+    "mtime": 1792101591.3284461,
+    "ast_hash": "b460b75e8f0981172752bddcc64c00f9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-icon-white.svg": {
+    "mtime": 1792101591.3294468,
+    "ast_hash": "5062631c8881a6fd143541b01d6aaf80",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-large-dark.png": {
+    "mtime": 1792101591.3294468,
+    "ast_hash": "f999191e4b55cc8d1c3ecff778e44ebd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-large-dark.svg": {
+    "mtime": 1792101591.3294468,
+    "ast_hash": "11c5c0c2ba6957a979636dd87777c4f0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-large-white.png": {
+    "mtime": 1792101591.3309507,
+    "ast_hash": "f999191e4b55cc8d1c3ecff778e44ebd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-large-white.svg": {
+    "mtime": 1792101591.3309507,
+    "ast_hash": "11c5c0c2ba6957a979636dd87777c4f0",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-medium-dark.png": {
+    "mtime": 1792101591.3319569,
+    "ast_hash": "15792dc767531432124bfa101d2a97fb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-medium-dark.svg": {
+    "mtime": 1792101591.3329573,
+    "ast_hash": "5d389b7269d514126e7ebe2dbb40d0e6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-medium-white.png": {
+    "mtime": 1792101591.3336751,
+    "ast_hash": "15792dc767531432124bfa101d2a97fb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-medium-white.svg": {
+    "mtime": 1792101591.3350818,
+    "ast_hash": "5d389b7269d514126e7ebe2dbb40d0e6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-small-dark.png": {
+    "mtime": 1792101591.3360734,
+    "ast_hash": "309ccdc8c6507f9dd3f9d0aa45ff3dfb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-small-dark.svg": {
+    "mtime": 1792101591.3375845,
+    "ast_hash": "d983d9950d8911f7a63ab5906759afd8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-small-white.png": {
+    "mtime": 1792101591.3375845,
+    "ast_hash": "309ccdc8c6507f9dd3f9d0aa45ff3dfb",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/vmware-small-white.svg": {
+    "mtime": 1792101591.3385878,
+    "ast_hash": "d983d9950d8911f7a63ab5906759afd8",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-icon-dark.png": {
+    "mtime": 1792101591.3385878,
+    "ast_hash": "145158a37d25f3d968fdf2b786b1918f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-icon-dark.svg": {
+    "mtime": 1792101591.3395884,
+    "ast_hash": "fa85ead2dd766d5e584778b8b235c60d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-icon-white.png": {
+    "mtime": 1792101591.3395884,
+    "ast_hash": "145158a37d25f3d968fdf2b786b1918f",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-icon-white.svg": {
+    "mtime": 1792101591.3405886,
+    "ast_hash": "fa85ead2dd766d5e584778b8b235c60d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-large-dark.png": {
+    "mtime": 1792101591.3413754,
+    "ast_hash": "0b9469b321ffa00bad1d378e7c1a74b6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-large-dark.svg": {
+    "mtime": 1792101591.3423805,
+    "ast_hash": "eac345bd27b0fbf99c9458d40c417266",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-large-white.png": {
+    "mtime": 1792101591.3423805,
+    "ast_hash": "0b9469b321ffa00bad1d378e7c1a74b6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-large-white.svg": {
+    "mtime": 1792101591.3435507,
+    "ast_hash": "eac345bd27b0fbf99c9458d40c417266",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-medium-dark.png": {
+    "mtime": 1792101591.3443942,
+    "ast_hash": "8b8d0bf29fbe7bbb00b6ee5fd593a3e6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-medium-dark.svg": {
+    "mtime": 1792101591.3455858,
+    "ast_hash": "7e036c397da11e701eface855d96aa47",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-medium-white.png": {
+    "mtime": 1792101591.348095,
+    "ast_hash": "8b8d0bf29fbe7bbb00b6ee5fd593a3e6",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-medium-white.svg": {
+    "mtime": 1792101591.349098,
+    "ast_hash": "7e036c397da11e701eface855d96aa47",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-small-dark.png": {
+    "mtime": 1792101591.349098,
+    "ast_hash": "d7fd9ca8a4c2f05ecf49f6d9c0aea1e4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-small-dark.svg": {
+    "mtime": 1792101591.3500965,
+    "ast_hash": "8e826c53023738b74262f06bff4ea349",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-small-white.png": {
+    "mtime": 1792101591.3510964,
+    "ast_hash": "d7fd9ca8a4c2f05ecf49f6d9c0aea1e4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/western-digital-small-white.svg": {
+    "mtime": 1792101591.3510964,
+    "ast_hash": "8e826c53023738b74262f06bff4ea349",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-icon-dark.png": {
+    "mtime": 1792101591.3525996,
+    "ast_hash": "afb127f1a319e7137ba205a3a4c98827",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-icon-dark.svg": {
+    "mtime": 1792101591.3525996,
+    "ast_hash": "7ea54167d42c5940bbab33385f9ece91",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-icon-white.png": {
+    "mtime": 1792101591.3536036,
+    "ast_hash": "afb127f1a319e7137ba205a3a4c98827",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-icon-white.svg": {
+    "mtime": 1792101591.3536036,
+    "ast_hash": "7ea54167d42c5940bbab33385f9ece91",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-large-dark.png": {
+    "mtime": 1792101591.3546054,
+    "ast_hash": "43a81c469d8b7880f0644ada01025341",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-large-dark.svg": {
+    "mtime": 1792101591.3546054,
+    "ast_hash": "67e56196b196ff17c13e05b813354edd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-large-white.png": {
+    "mtime": 1792101591.356605,
+    "ast_hash": "43a81c469d8b7880f0644ada01025341",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-large-white.svg": {
+    "mtime": 1792101591.356605,
+    "ast_hash": "67e56196b196ff17c13e05b813354edd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-medium-dark.png": {
+    "mtime": 1792101591.356605,
+    "ast_hash": "69f0d94421fcb318067efdd7a13c4c0d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-medium-dark.svg": {
+    "mtime": 1792101591.3576043,
+    "ast_hash": "db6cf29463251c1dab0c09dc62087e4b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-medium-white.png": {
+    "mtime": 1792101591.358605,
+    "ast_hash": "69f0d94421fcb318067efdd7a13c4c0d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-medium-white.svg": {
+    "mtime": 1792101591.3596063,
+    "ast_hash": "db6cf29463251c1dab0c09dc62087e4b",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-small-dark.png": {
+    "mtime": 1792101591.3606043,
+    "ast_hash": "2f3702b3485621d5bc0e870c2d57920c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-small-dark.svg": {
+    "mtime": 1792101591.3606043,
+    "ast_hash": "13280cbf5210f162104a38b4ebbe4de9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-small-white.png": {
+    "mtime": 1792101591.3616033,
+    "ast_hash": "2f3702b3485621d5bc0e870c2d57920c",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/whatsapp-small-white.svg": {
+    "mtime": 1792101591.3616033,
+    "ast_hash": "13280cbf5210f162104a38b4ebbe4de9",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-icon-dark.png": {
+    "mtime": 1792101591.3626044,
+    "ast_hash": "f9ae2aa5eae089c46e00dc3b85409950",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-icon-dark.svg": {
+    "mtime": 1792101591.3626044,
+    "ast_hash": "ba53443fc78bf786164920054ef133a3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-icon-white.png": {
+    "mtime": 1792101591.3636057,
+    "ast_hash": "2356d63efcae176ca393f41b12d04071",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-icon-white.svg": {
+    "mtime": 1792101591.3636057,
+    "ast_hash": "477c9e879ce0b3cc40b31b0a93db648d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-large-dark.png": {
+    "mtime": 1792101591.3646033,
+    "ast_hash": "d6c5493513523b0b3ac4b715602a8984",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-large-dark.svg": {
+    "mtime": 1792101591.3646033,
+    "ast_hash": "2b471ce4b21353ea3e029e150a025fdd",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-large-white.png": {
+    "mtime": 1792101591.3656044,
+    "ast_hash": "af351cbcbf255e717718f668c7ec34b7",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-large-white.svg": {
+    "mtime": 1792101591.3662462,
+    "ast_hash": "0501ab9d8bfdee56ee0c37a61ce6b085",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-medium-dark.png": {
+    "mtime": 1792101591.3662462,
+    "ast_hash": "6aaea8f4e3e084b6fb591f254a9743b3",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-medium-dark.svg": {
+    "mtime": 1792101591.3662462,
+    "ast_hash": "c08ca2ac303ef798a66fc9afa28745df",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-medium-white.png": {
+    "mtime": 1792101591.367781,
+    "ast_hash": "6c32463ed80765fb3cdf9ac051cb093a",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-medium-white.svg": {
+    "mtime": 1792101591.367781,
+    "ast_hash": "00e55ce9e45f3f2bf70fdf70ef7db86d",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-small-dark.png": {
+    "mtime": 1792101591.3687868,
+    "ast_hash": "79ccfd8816a2e5e7463e10144902f830",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-small-dark.svg": {
+    "mtime": 1792101591.369836,
+    "ast_hash": "d81c1ebabff76802d26d1c7ce2194a72",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-small-white.png": {
+    "mtime": 1792101591.3708415,
+    "ast_hash": "5b469083e6114eaa7090fa180f625aa4",
+    "semantic_hash": ""
+  },
+  "mark-ui/public/logos/xai-small-white.svg": {
+    "mtime": 1792101591.3708415,
+    "ast_hash": "bad5a3f015ed5eecd68e726005436b16",
     "semantic_hash": ""
   }
 }
