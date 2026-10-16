@@ -24,7 +24,7 @@ services:
     restart: "no"
 
 networks:
-    app_net:
+  app_net:
     name: ${DOCKER_NETWORK:-mark-net}
     external: true
 
